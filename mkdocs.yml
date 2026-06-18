@@ -51,7 +51,7 @@ markdown_extensions:
   - tables
   - toc:
       permalink: true
-      toc_depth: 3
+      toc_depth: 2
 
 nav:
   - 首页: index.md
@@ -62,21 +62,7 @@ nav:
   - 种族攻略: ch6-race.md
   - 专长攻略: ch7-divinity.md
   - 装备攻略: ch8-equip.md
-  - 召唤攻略:
-    - 概览: ch9-summon.md
-    - 进化的弗林德: ch9-flind.md
-    - 进化的伯纳德: ch9-bernard.md
-    - 进化的小趴铲: ch9-shovel.md
-    - 进化的长牙: ch9-tusk.md
-    - 进化的萨扎: ch9-sazza.md
-    - 进化的波尼: ch9-squire.md
-    - 进化的挠挠: ch9-scratch.md
-    - 进化的普德利普: ch9-pooldripp.md
-    - 进化的塔拉: ch9-tara.md
-    - 进化的枭熊: ch9-owlbear.md
-    - 进化的科斯: ch9-quothe.md
-    - 进化的我们: ch9-us.md
-    - 进化的布布: ch9-boo.md
+  - 召唤攻略: ch9-summon.md
   - 自选模组说明: ch10-mod.md
   - 难度攻略: ch11-difficulty.md
   - 炼金术: ch12-alchemy.md
