@@ -123,3 +123,79 @@
   border-top: 1px solid rgba(212, 160, 23, 0.2);
   margin: 2em 0;
 }
+
+/* 修复admonition标题中文 */
+.md-typeset .admonition.warning > .admonition-title::before {
+  content: "警告";
+}
+.md-typeset .admonition.danger > .admonition-title::before {
+  content: "危险";
+}
+.md-typeset .admonition.info > .admonition-title::before {
+  content: "信息";
+}
+.md-typeset .admonition.success > .admonition-title::before {
+  content: "成功";
+}
+.md-typeset .admonition.note > .admonition-title::before {
+  content: "注意";
+}
+.md-typeset .admonition.tip > .admonition-title::before {
+  content: "提示";
+}
+.md-typeset .admonition.important > .admonition-title::before {
+  content: "重要";
+}
+.md-typeset .admonition.caution > .admonition-title::before {
+  content: "谨慎";
+}
+
+/* 隐藏英文标题，显示中文 */
+.md-typeset .admonition.warning > .admonition-title {
+  font-size: 0;
+}
+.md-typeset .admonition.warning > .admonition-title::before {
+  font-size: 0.64rem;
+}
+.md-typeset .admonition.danger > .admonition-title {
+  font-size: 0;
+}
+.md-typeset .admonition.danger > .admonition-title::before {
+  font-size: 0.64rem;
+}
+.md-typeset .admonition.info > .admonition-title {
+  font-size: 0;
+}
+.md-typeset .admonition.info > .admonition-title::before {
+  font-size: 0.64rem;
+}
+.md-typeset .admonition.success > .admonition-title {
+  font-size: 0;
+}
+.md-typeset .admonition.success > .admonition-title::before {
+  font-size: 0.64rem;
+}
+.md-typeset .admonition.note > .admonition-title {
+  font-size: 0;
+}
+.md-typeset .admonition.note > .admonition-title::before {
+  font-size: 0.64rem;
+}
+.md-typeset .admonition.tip > .admonition-title {
+  font-size: 0;
+}
+.md-typeset .admonition.tip > .admonition-title::before {
+  font-size: 0.64rem;
+}
+.md-typeset .admonition.important > .admonition-title {
+  font-size: 0;
+}
+.md-typeset .admonition.important > .admonition-title::before {
+  font-size: 0.64rem;
+}
+.md-typeset .admonition.caution > .admonition-title {
+  font-size: 0;
+}
+.md-typeset .admonition.caution > .admonition-title::before {
+  font-size: 0.64rem;
+}

@@ -28,7 +28,6 @@ theme:
   features:
     - navigation.tabs
     - navigation.sections
-    - navigation.expand
     - navigation.top
     - navigation.tracking
     - search.suggest
@@ -56,7 +55,7 @@ markdown_extensions:
   - tables
   - toc:
       permalink: true
-      toc_depth: 3
+      toc_depth: 2
 
 nav:
   - 首页: index.md
@@ -98,18 +97,6 @@ nav:
     - 死亡遗产详解: ch6-death-heritage.md
   - 专长攻略:
     - 封神之路: ch7-divinity.md
-    - 专长8：神格能力: ch7-divinity-p8.md
-    - 专长9-18：元素之神: ch7-divinity-p9-18.md
-    - 专长19：徒手之神: ch7-divinity-p19.md
-    - 专长20：投掷之神: ch7-divinity-p20.md
-    - 专长21：近战之神: ch7-divinity-p21.md
-    - 专长22：远程之神: ch7-divinity-p22.md
-    - 专长23：法术之神: ch7-divinity-p23.md
-    - 专长24：戏法之神: ch7-divinity-p24.md
-    - 专长25：刺客之神: ch7-divinity-p25.md
-    - 专长26：猎杀之神: ch7-divinity-p26.md
-    - 专长27：原罪之神: ch7-divinity-p27.md
-    - 专长28：美德之神: ch7-divinity-p28.md
     - 泰坦之握: ch7-titan.md
     - 鲜血恩惠: ch7-blood.md
   - 装备攻略:
@@ -121,7 +108,21 @@ nav:
     - 纷争物品包: ch8-strife.md
     - 维克那法袍: ch8-vecna-robe.md
   - 召唤攻略:
-    - 进化系列召唤物: ch9-evolution.md
+    - 进化系列召唤物:
+      - 概览: ch9-evolution.md
+      - 进化的弗林德: ch9-flind.md
+      - 进化的伯纳德: ch9-bernard.md
+      - 进化的小趴铲: ch9-shovel.md
+      - 进化的长牙: ch9-tusk.md
+      - 进化的萨扎: ch9-sazza.md
+      - 进化的波尼: ch9-squire.md
+      - 进化的挠挠: ch9-scratch.md
+      - 进化的普德利普: ch9-pooldripp.md
+      - 进化的塔拉: ch9-tara.md
+      - 进化的枭熊: ch9-owlbear.md
+      - 进化的科斯: ch9-quothe.md
+      - 进化的我们: ch9-us.md
+      - 进化的布布: ch9-boo.md
   - 自选模组说明:
     - MCM数据统计: ch10-mcm-data.md
     - 功能-星命: ch10-star.md
