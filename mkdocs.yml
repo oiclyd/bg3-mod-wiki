@@ -1,6 +1,4 @@
 site_name: 夜独整合包 Wiki
-site_description: 博德之门3 MOD整合包攻略站
-site_author: 在下夜独
 site_url: https://oiclyd.github.io/bg3-mod-wiki
 
 theme:
@@ -24,30 +22,14 @@ theme:
   font:
     text: Noto Sans SC
     code: JetBrains Mono
-  favicon: assets/images/favicon.png
   features:
     - navigation.top
-    - search.suggest
-    - search.highlight
-    - content.code.copy
-  custom_dir: overrides
-  extra_css:
-    - stylesheets/extra.css
 
 plugins:
   - search:
       lang: zh
 
 markdown_extensions:
-  - admonition
-  - pymdownx.details
-  - pymdownx.superfences
-  - pymdownx.tabbed:
-      alternate_style: true
-  - pymdownx.highlight:
-      anchor_linenums: true
-  - pymdownx.inlinehilite
-  - pymdownx.snippets
   - tables
   - toc:
       permalink: true
@@ -66,14 +48,3 @@ nav:
   - 自选模组说明: ch10-mod.md
   - 难度攻略: ch11-difficulty.md
   - 炼金术: ch12-alchemy.md
-
-extra:
-  social:
-    - icon: fontawesome/brands/bilibili
-      link: https://space.bilibili.com/
-      name: B站主页
-  generator: false
-
-copyright: |
-  &copy; 2024 在下夜独 | 
-  <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a>
