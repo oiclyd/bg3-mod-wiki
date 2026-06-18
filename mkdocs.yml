@@ -5,20 +5,18 @@ theme:
   name: material
   language: zh
   palette:
-    - media: "(prefers-color-scheme: light)"
-      scheme: default
-      primary: amber
-      accent: amber
-      toggle:
-        icon: material/brightness-7
-        name: 切换到深色模式
-    - media: "(prefers-color-scheme: dark)"
-      scheme: slate
+    - scheme: slate
       primary: amber
       accent: amber
       toggle:
         icon: material/brightness-4
         name: 切换到浅色模式
+    - scheme: default
+      primary: amber
+      accent: amber
+      toggle:
+        icon: material/brightness-7
+        name: 切换到深色模式
   font:
     text: Noto Sans SC
     code: JetBrains Mono
