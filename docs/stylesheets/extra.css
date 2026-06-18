@@ -1,201 +1,64 @@
 :root {
-  --md-primary-fg-color: #d4a017;
-  --md-primary-fg-color--light: #e8c547;
-  --md-primary-fg-color--dark: #b8860b;
-  --md-accent-fg-color: #ffd700;
+    --md-primary-fg-color: #ffc107;
+    --md-primary-fg-color--light: #ffe082;
+    --md-primary-fg-color--dark: #ff8f00;
+    --md-accent-fg-color: #ffc107;
 }
 
 .md-header {
-  background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
-  box-shadow: 0 2px 8px rgba(0,0,0,0.3);
+    background: linear-gradient(90deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%) !important;
 }
 
 .md-tabs {
-  background: linear-gradient(135deg, #16213e 0%, #0f3460 100%);
-}
-
-.md-nav__title {
-  color: #d4a017;
-  font-weight: 600;
+    background: linear-gradient(90deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%) !important;
 }
 
 .md-typeset h1 {
-  color: #ffd700;
-  font-weight: 700;
-  border-bottom: 2px solid #d4a017;
-  padding-bottom: 0.3em;
-  margin-top: 1.5em;
+    color: #ffc107;
+    border-bottom: 2px solid #ffc107;
+    padding-bottom: 0.3em;
 }
 
 .md-typeset h2 {
-  color: #e8c547;
-  font-weight: 600;
-  background: linear-gradient(135deg, rgba(212, 160, 23, 0.15) 0%, rgba(212, 160, 23, 0.05) 100%);
-  border: 1px solid rgba(212, 160, 23, 0.3);
-  border-left: 4px solid #d4a017;
-  border-radius: 0 8px 8px 0;
-  padding: 0.6em 1em;
-  margin-top: 2em;
-  margin-bottom: 1em;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+    color: #ffe082;
+    border-left: 4px solid #ffc107;
+    padding-left: 0.5em;
+    margin-top: 2em;
 }
 
 .md-typeset h3 {
-  color: #f0d878;
-  background: rgba(212, 160, 23, 0.08);
-  border: 1px solid rgba(212, 160, 23, 0.2);
-  border-left: 3px solid #b8860b;
-  border-radius: 0 6px 6px 0;
-  padding: 0.4em 0.8em;
-  margin-top: 1.5em;
-  margin-bottom: 0.8em;
-}
-
-.md-typeset h4 {
-  color: #d4c4a0;
-  border-bottom: 1px dashed rgba(212, 160, 23, 0.3);
-  padding-bottom: 0.2em;
-  margin-top: 1.2em;
-}
-
-.md-typeset a {
-  color: #ffd700;
-  text-decoration: none;
-  border-bottom: 1px dashed #d4a017;
-}
-
-.md-typeset a:hover {
-  color: #fff;
-  border-bottom: 1px solid #ffd700;
+    color: #ffd54f;
+    margin-top: 1.5em;
 }
 
 .md-typeset blockquote {
-  border-left: 4px solid #d4a017;
-  background: rgba(212, 160, 23, 0.05);
-  padding: 1em;
-  border-radius: 0 4px 4px 0;
+    border-left: 4px solid #ffc107;
+    background: rgba(255, 193, 7, 0.05);
+    padding: 0.5em 1em;
 }
 
-.md-typeset code {
-  background: rgba(212, 160, 23, 0.1);
-  color: #ffd700;
-  border-radius: 3px;
-  padding: 0.2em 0.4em;
+.md-typeset table {
+    border: 1px solid rgba(255, 193, 7, 0.3);
 }
 
-.md-typeset pre {
-  background: #1a1a2e;
-  border: 1px solid #d4a017;
-  border-radius: 6px;
+.md-typeset table th {
+    background: rgba(255, 193, 7, 0.15);
+    color: #ffc107;
 }
 
-.md-footer {
-  background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+.md-typeset table tr:hover {
+    background: rgba(255, 193, 7, 0.05);
 }
 
-.md-search__input {
-  background: rgba(255,255,255,0.1);
-  border-radius: 20px;
-}
-
-.md-nav__link--active {
-  color: #ffd700;
-  font-weight: 600;
-}
-
-.md-typeset table:not([class]) th {
-  background: #d4a017;
-  color: #1a1a2e;
-  font-weight: 700;
-}
-
-.md-typeset table:not([class]) tr:hover {
-  background: rgba(212, 160, 23, 0.1);
-}
-
-.md-typeset ul li,
-.md-typeset ol li {
-  margin-bottom: 0.3em;
-}
-
-.md-typeset hr {
-  border: none;
-  border-top: 1px solid rgba(212, 160, 23, 0.2);
-  margin: 2em 0;
-}
-
-/* 修复admonition标题中文 */
-.md-typeset .admonition.warning > .admonition-title::before {
-  content: "警告";
-}
-.md-typeset .admonition.danger > .admonition-title::before {
-  content: "危险";
-}
-.md-typeset .admonition.info > .admonition-title::before {
-  content: "信息";
-}
-.md-typeset .admonition.success > .admonition-title::before {
-  content: "成功";
-}
-.md-typeset .admonition.note > .admonition-title::before {
-  content: "注意";
-}
-.md-typeset .admonition.tip > .admonition-title::before {
-  content: "提示";
-}
-.md-typeset .admonition.important > .admonition-title::before {
-  content: "重要";
-}
-.md-typeset .admonition.caution > .admonition-title::before {
-  content: "谨慎";
-}
-
-/* 隐藏英文标题，显示中文 */
-.md-typeset .admonition.warning > .admonition-title {
-  font-size: 0;
-}
-.md-typeset .admonition.warning > .admonition-title::before {
-  font-size: 0.64rem;
-}
-.md-typeset .admonition.danger > .admonition-title {
-  font-size: 0;
-}
-.md-typeset .admonition.danger > .admonition-title::before {
-  font-size: 0.64rem;
-}
-.md-typeset .admonition.info > .admonition-title {
-  font-size: 0;
-}
-.md-typeset .admonition.info > .admonition-title::before {
-  font-size: 0.64rem;
-}
-.md-typeset .admonition.success > .admonition-title {
-  font-size: 0;
-}
-.md-typeset .admonition.success > .admonition-title::before {
-  font-size: 0.64rem;
-}
-.md-typeset .admonition.note > .admonition-title {
-  font-size: 0;
-}
-.md-typeset .admonition.note > .admonition-title::before {
-  font-size: 0.64rem;
-}
-.md-typeset .admonition.tip > .admonition-title {
-  font-size: 0;
-}
-.md-typeset .admonition.tip > .admonition-title::before {
-  font-size: 0.64rem;
-}
-.md-typeset .admonition.important > .admonition-title {
-  font-size: 0;
-}
-.md-typeset .admonition.important > .admonition-title::before {
-  font-size: 0.64rem;
-}
-.md-typeset .admonition.caution > .admonition-title {
-  font-size: 0;
-}
-.md-typeset .admonition.caution > .admonition-title::before {
-  font-size: 0.64rem;
+/* 交换左右侧边栏：左侧显示TOC，右侧显示导航 */
+@media screen and (min-width: 76.25em) {
+    .md-sidebar--primary {
+        order: 1;
+    }
+    .md-sidebar--secondary {
+        order: 2;
+    }
+    .md-content {
+        order: 3;
+    }
 }
