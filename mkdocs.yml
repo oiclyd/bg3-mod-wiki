@@ -1,0 +1,93 @@
+site_name: 夜独整合包 Wiki
+site_description: 博德之门3 MOD整合包攻略站
+site_author: 在下夜独
+site_url: https://oiclyd.github.io/bg3-mod-wiki
+
+theme:
+  name: material
+  language: zh
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: amber
+      accent: amber
+      toggle:
+        icon: material/brightness-7
+        name: 切换到深色模式
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: amber
+      accent: amber
+      toggle:
+        icon: material/brightness-4
+        name: 切换到浅色模式
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+    - content.tabs.link
+
+plugins:
+  - search:
+      lang: zh
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - tables
+  - toc:
+      permalink: true
+      toc_depth: 3
+
+nav:
+  - 首页: index.md
+  - 新手入门:
+    - 整合包简介: ch1-start.md
+    - 注意事项与BUG规避: ch1-bugs.md
+    - 坏档原因分析: ch1-corrupt.md
+    - 荣誉模式风险: ch1-honor.md
+    - 掉落覆盖说明: ch1-drop-overwrite.md
+    - 30级经验曲线参考: ch1-exp.md
+  - MOD工具与教程:
+    - MOD增删改说明: ch2-mod.md
+    - 管理器显示MOD中文名: ch2-name.md
+    - 联机说明: ch2-mp.md
+    - 装备幻化: ch2-transmog.md
+    - MCM角色预设导入导出: ch2-mcm.md
+    - SE控制台代码: ch2-se.md
+  - 常见问题汇总: ch3-faq.md
+  - 职业攻略:
+    - 灭法之影: ch4-miefa.md
+  - 种族攻略:
+    - 谪仙种族详解: ch6-exile.md
+  - 专长攻略:
+    - 封神之路: ch7-divinity.md
+  - 装备攻略:
+    - 12符咒: ch8-talisman.md
+  - 召唤攻略: ch9-summon.md
+  - 难度攻略:
+    - Dota难度: ch11-dota.md
+  - 炼金术: ch12-alchemy.md
+  - 自选模组说明: ch10-mod.md
+
+extra:
+  social:
+    - icon: fontawesome/brands/bilibili
+      link: https://space.bilibili.com/
+      name: B站主页
+  generator: false
+
+copyright: |
+  &copy; 2024 在下夜独 | 
+  <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a>
