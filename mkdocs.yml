@@ -23,17 +23,29 @@ theme:
     text: Noto Sans SC
     code: JetBrains Mono
   features:
+    - navigation.sections
+    - navigation.expand
     - navigation.top
+    - toc.integrate
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+  custom_dir: overrides
+  extra_css:
+    - stylesheets/extra.css
 
 plugins:
   - search:
       lang: zh
 
 markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
   - tables
   - toc:
       permalink: true
-      toc_depth: 2
+      toc_depth: 3
 
 nav:
   - 首页: index.md
@@ -48,3 +60,14 @@ nav:
   - 自选模组说明: ch10-mod.md
   - 难度攻略: ch11-difficulty.md
   - 炼金术: ch12-alchemy.md
+
+extra:
+  social:
+    - icon: fontawesome/brands/bilibili
+      link: https://space.bilibili.com/
+      name: B站主页
+  generator: false
+
+copyright: |
+  &copy; 2024 在下夜独 | 
+  <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a>
