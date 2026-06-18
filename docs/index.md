@@ -10,11 +10,10 @@
 
 本整合包由B站UP主 "[在下夜独](https://space.bilibili.com/16303982)" 制作发布，**永久免费**，任何付费渠道均为盗传。
 
-**📦 MOD整合包下载地址**:[移动云盘[不限速]](https://caiyun.139.com/m/i?075CtoTN5xUYB) | [百度网盘](https://pan.baidu.com/s/1HU2HVEmJZ9vZAs9UmAUenw?pwd=ZXYD)
+**📦 下载地址**:[移动云盘[不限速]](https://caiyun.139.com/m/i?075CtoTN5xUYB)  [百度网盘](https://pan.baidu.com/s/1HU2HVEmJZ9vZAs9UmAUenw?pwd=ZXYD)
 
-<span style="color: #4CAF50;">内含MOD安装器
-
-[一键自动 | 安装 | 备份 | 还原 | 卸载 | MOD迁移]</span>
+!!! success "内含MOD安装器"
+    [一键自动 | 安装 | 备份 | 还原 | 卸载 | MOD迁移]
 
 整合包包含大量群友自制内容：
 
