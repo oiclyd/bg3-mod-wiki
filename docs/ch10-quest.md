@@ -8,718 +8,180 @@
 
 ---
 
-#### 第一步：成为亡灵
+### 第一步：成为亡灵
 
-1. 阅读《塞尔死灵法术典籍》（获得“禁忌知识”被动）
-
-2. 使用法术“不死之路 - 冥想”（获得“禁忌知识”之后自动解锁）
-
-3. 使用鬼婆的药水“踌躇意志”和“失踪宠物”，直到你成功。注意 “失踪宠物”要后喝
-
+1. 阅读《塞尔死灵法术典籍》（获得"禁忌知识"被动）
+2. 使用法术"不死之路 - 冥想"（获得"禁忌知识"之后自动解锁）
+3. 使用鬼婆的药水"踌躇意志"和"失踪宠物"，直到你成功。注意 "失踪宠物"要后喝
 4. 进入长休，在睡觉前自杀。等待10回合自动复活（如果在10回合结束前复活，则变身失败）
-
 5. 完成长休
 
-#### 能力：
+### 能力：
 
 1. 被认为是不死生物，不会成为大多数治疗法术的目标，且会受到驱散不死生物和控制不死生物的影响
-
 2. 毒素和黯蚀抗性
-
 3. 对抗魅惑获得优势
-
 4. 对疾病免疫
-
 5. 死亡豁免检定具有优势
-
 6. 获得一个职业动作，可以玷污生物的尸体以恢复生命值（消耗附赠动作）
-
 7. 打断法术 瓦尔克拉娜的法术书-《尸体手榴弹》
 
-#### 模组和角色互动：
+### 模组和角色互动：
 
 1. 邪念（起源）：造成的黯蚀伤害+1（每个亡灵阶段+1）
-
 2. 堕落的阿斯莫（种族）：对黯蚀免疫
-
 3. 死亡之歌套装或死灵师10级（装备和职业）：对黯蚀免疫
-
 4. 同时具备上述两者：+1伤害减免
-
 5. 恐惧主宰（子职）：所有献祭尸体均会触发污秽效果（玷污一具尸体+1d4生命值）
-
-6. PF2E（法术）：伤害术能正常治疗。
-
+6. PF2E（法术）：伤害术能正常治疗
 7. 黑卫（主职）：黑卫的所有治疗都与亡灵之路兼容
 
-可获取的力量：
+### 可获取的力量：
 
 1. 获得劳薇塔的灾祸，用特定的法术摧毁它，可获得被动：近战攻击增加1d6范围黯蚀伤害（2m范围，可开关，影响自己和友军）
-
 2. 恐惧主宰：第二章连续4回合受到幽影诅咒的影响。增益：在你不精通的掷骰上增加一半的熟练项加值，包括豁免检定，以及免疫幽影诅咒
-
 3. 幽影獒召唤：接近幽影獒并尝试驯服它（用一个动作来驯服）。如果你成功则会成为一个随从，死去后可以重新召唤。
-
 4. 邪恶斗篷：完成第二幕的惩罚恶人任务。效果可以追溯。（仅当被标记为圣武士时可用，包括黑卫）效果：十字军斗篷为黯蚀伤害。
-
 5. 恐惧主宰：激活属于恐惧主宰职业的骨雕，每2个会增强召唤物的力量，4个骨雕时获得永生之袍如果已经获得了它，则会增强其力量，8个骨雕时背包中拥有可以谐调石头为阿扎顿增强伤害。
 
 ---
 
-#### 第二步：成为吸血鬼
+### 第二步：成为吸血鬼
 
 1. 成为亡灵（不死生物）
-
 2. 阅读《黎明之影：吸血鬼学说概论》（在养育间，审判官右边宝藏室）
-
-3. 使用法术“吸血鬼之路 - 冥想”
-
-4. 使用鬼婆的药水“腹中蝴蝶”和“狂乱之吻”，在效果持续期间存活。
-
-5. 使用鬼婆的药水“母亲的憎恶”，然后用给予的法术咬一个活着的类人生物。
-
+3. 使用法术"吸血鬼之路 - 冥想"
+4. 使用鬼婆的药水"腹中蝴蝶"和"狂乱之吻"，在效果持续期间存活。
+5. 使用鬼婆的药水"母亲的憎恶"，然后用给予的法术咬一个活着的类人生物。
 6. 长休
 
-#### 能力：
+### 能力：
 
-1. 吸血鬼：你对生者造成的任何黯蚀伤害都会恢复你1点生命值；+1.5M移动速度；获得“吸血鬼啃咬”（造成1d4+熟练项加值）；黑暗视觉（12M）；获得“吸血鬼飞行”（8M，需要出发和到达点都为遮蔽）
-
+1. 吸血鬼：你对生者造成的任何黯蚀伤害都会恢复你1点生命值；+1.5M移动速度；获得"吸血鬼啃咬"（造成1d4+熟练项加值）；黑暗视觉（12M）；获得"吸血鬼飞行"（8M，需要出发和到达点都为遮蔽）
 2. 隐秘威胁：被遮蔽时获得隐藏威胁（-1重击骰，+1DC）
-
 3. 阳光弱点：在阳光下攻击掷骰和豁免检定处于劣势
-
 4. 流水弱点：在水中停留的时间越长，受到的强酸伤害就越高
-
 5. 吸血鬼再生：当不在阳光下且没有被光耀伤害命中时，每回合恢复1点生命值（可切换）
-
 6. 勃艮之悦：踏入血液时，吸收血液以恢复1d4生命值（可切换）
+7. 迷魂：对不死盟友和中立者施放此法术，使其在大多数情况中被视为随从（如慑心魔灵光、恐惧主宰特性、死亡之歌戒指等）；同时从目标身上窃取1点所有属性；你一次只能拥有一个奴隶；基础范围为3m；在"吸血鬼"阶段，它只能以中立的不死生物和玩家角色为目标，不能以盟友召唤物为目标。（阿斯代伦因此功能被视为不死生物，其他的则需要以某种方式成为不死生物，如亡灵种族或从瓦尔克拉娜的法术"瓦尔克拉娜的死亡灌注"）。在"高等亡灵"阶段，它获得+1.5M射程，可以对敌方不死生物使用。如果它们威能通过感知豁免检定，就会成为你的奴隶，直至他们死亡或你迷惑另一个生物。在"巫妖"阶段，它又获得+1.5M射程。在中立或敌对目标上，会控制该实体。在盟友目标上，如果他们抵抗了该法术，目标可以心甘情愿地向吸血鬼施法者宣誓效忠（避免在未来被迷惑）。
 
-7. 迷魂：对不死盟友和中立者施放此法术，使其在大多数情况中被视为随从（如慑心魔灵光、恐惧主宰特性、死亡之歌戒指等）；同时从目标身上窃取1点所有属性；你一次只能拥有一个奴隶；基础范围为3m；在“吸血鬼”阶段，它只能以中立的不死生物和玩家角色为目标，不能以盟友召唤物为目标。（阿斯代伦因此功能被视为不死生物，其他的则需要以某种方式成为不死生物，如亡灵种族或从瓦尔克拉娜的法术"瓦尔克拉娜的死亡灌注"）。在“高等亡灵”阶段，它获得+1.5M射程，可以对敌方不死生物使用。如果它们威能通过感知豁免检定，就会成为你的奴隶，直至他们死亡或你迷惑另一个生物。在“巫妖”阶段，它又获得+1.5M射程。在中立或敌对目标上，会控制该实体。在盟友目标上，如果他们抵抗了该法术，目标可以心甘情愿地向吸血鬼施法者宣誓效忠（避免在未来被迷惑）。
+宣誓效忠：两个角色将不可逆地绑定；领主获得+1M移动（吸血鬼阶段）；领主+1 DR（高等亡灵阶段）；领主对非盟友目标造成+1黯蚀伤害（巫妖）；宣誓者被标记为亡灵召唤，可能允许某些效果以它们为目标（就像普通奴隶一样）；领主可以同时拥有多个随从；他们之间没有属性削弱；宣誓者不算奴隶，所以领主仍然可以绑定一个奴隶。
 
-宣誓效忠：两个角色将不可逆地绑定；
-
-领主获得+1M移动；（吸血鬼阶段）
-
-领主+1 DR；（高等亡灵阶段）
-
-领主对非盟友目标造成+1黯蚀伤害（巫妖）；
-
-宣誓者被标记为亡灵召唤，可能允许某些效果以它们为目标（就像普通奴隶一样）；
-
-领主可以同时拥有多个随从；
-
-他们之间没有属性削弱；
-
-宣誓者不算奴隶，所以领主仍然可以绑定一个奴隶
-
-#### 模组和角色互动：
+### 模组和角色互动：
 
 1. 阿斯代伦：啃咬+1d4黯蚀伤害（像戏法一样）
-
 2. 邪念：啃咬会使目标流血，持续3回合
-
 3. 邪念：当有人因你而流血时，他们的脚下会形成一个小血池
-
 4. 恐惧主宰：施放冥界武装时，你和你周围的盟友在对生者进行伤害性攻击和法术时获得1d4治疗
-
 5. 强化饮命者（邪术师的魔能祈唤）：邪术师的饮命者对生命值＜50%的目标造成双倍伤害
-
 6. 强化吸血鬼之吻（死亡之歌）：如果你在被死亡之歌的剑吸血鬼之吻治疗时已经满血，则获得临时生命值（上限为20）
-
 7. 黑卫：强化职业本身
-
 8. 噩梦：每天晚上，25%几率获得噩梦。有10种，每个都会在当天施加独特的Debuff（注意是Debuff，而不是Buff，成为吸血鬼后可以服用箴言菇来永远防止噩梦）
 
-噩梦列表：
+噩梦列表：渴望温暖（寒冷伤害易伤）、枯萎之视（魅力技能检定处于劣势，恐吓除外）、腐朽之肉（强酸易伤）、失去的纯真（当不死盟友仆从在附近时，你会分心想知道他们曾经是谁，并且在专注检定处于劣势）、腐臭盛宴（生命值减少25%）、活体解剖（挥砍伤害易伤）、脆弱皮肤（钝击伤害易伤）、活埋（当有人在附近使用铲子时，你必须成功进行感知豁免检定，否则就会恐惧地逃跑。如果你是使用铲子的人并且失败了，你会受到2d8心灵伤害）、失败氏族（当盟友靠近你时，你无法采取行动）、缝合嘴唇（你被沉默了，说话或施展了的口头法术）
 
-渴望温暖：寒冷伤害易伤
-
-枯萎之视：魅力技能检定处于劣势，恐吓除外
-
-腐朽之肉：强酸易伤
-
-失去的纯真：当不死盟友仆从在附近时，你会分心想知道他们曾经是谁，并且在专注检定处于劣势
-
-腐臭盛宴：生命值减少25%
-
-活体解剖：挥砍伤害易伤
-
-脆弱皮肤：钝击伤害易伤
-
-活埋：当有人在附近使用铲子时，你必须成功进行感知豁免检定，否则就会恐惧地逃跑。如果你是使用铲子的人并且失败了，你会受到 2d8 心灵伤害
-
-失败氏族：当盟友靠近你时，你无法采取行动
-
-缝合嘴唇：你被沉默了，说话或施展了的口头法术
-
-#### 可获得的力量：
+### 可获得的力量：
 
 1. 使用给予的法术摧毁悲伤（卡扎多尔掉的法杖）获得：+1法术DC和法术攻击掷骰；当敌人对你的一个法术进行豁免检定失败时，恢复1d4*（熟练加值-1）；枯萎术（不消耗法术位，每次长休一次）
-
 2. 以吸血鬼的身份进入堕影冥界：+4m吸血鬼飞行；黑暗视觉变为高级黑暗视觉；不再害怕阳光
-
 3. 恐惧主宰：效果同上并增强：+8m吸血鬼飞行；黑暗视觉变为魔鬼视觉；不再害怕阳光；永生之袍根据遮蔽情况获得伤害减免
+4. 飞升吸血鬼：从阿斯代伦那里窃取力量。在魔法地窖找到并阅读名为《论祝福》（和萨奇亚特法典同房间）的书，在卡扎多尔地牢找到并阅读黑弥撒卷轴，再读一遍《论祝福》（在魔法地窖的隐藏房间内），获得法术"种植地狱祝福容器"，在仪式前施放该法术（先看下面的提示），让阿斯代伦飞升，获得第二个法术"收集地狱祝福容器"，对阿斯代伦施放第二个法术"收集地狱祝福容器"。此行为将窃取阿斯代伦飞升的力量，阿斯代伦将会敌对并离开团队，但是有机会和平解决。
 
-4. 飞升吸血鬼：从阿斯代伦那里窃取力量。
+> **提示：请在飞升仪式前进行对话！！！！！飞升后夺取力量再进行对话则无效！！！！！**
 
-在魔法地窖找到并阅读名为《论祝福》（和萨奇亚特法典同房间）的书
+通过添加到快捷临时栏的法术"与阿斯代伦讨论黑弥撒仪式"，与阿斯代伦进行新的对话（图标类似死者交谈）。通过该法术，说服阿斯代伦将力量交给你。如果你成功了，游戏会认为他没有飞升并且夺取飞升之力不会敌对。
 
-在卡扎多尔地牢找到并阅读 黑弥撒卷轴
-
-再读一遍《论祝福》（在魔法地窖的隐藏房间内），获得法术“种植地狱祝福容器”
-
-在仪式前施放该法术（先看下面的提示）
-
-让阿斯代伦飞升，获得第二个法术“收集地狱祝福容器”
-
-对阿斯代伦施放第二个法术“收集地狱祝福容器”
-
-此行为将窃取阿斯代伦飞升的力量，阿斯代伦将会敌对并离开团队，但是有机会和平解决。
-
-#### 提示：请在飞升仪式前进行对话！！！！！飞升后夺取力量再进行对话则无效！！！！！
-
-通过添加到快捷临时栏的法术“与阿斯代伦讨论黑弥撒仪式”，与阿斯代伦进行新的对话（图标类似死者交谈）
-
-通过该法术，说服阿斯代伦将力量交给你
-
-如果你成功了，游戏会认为他没有飞升并且夺取飞升之力不会敌对
-
-5. 凯兰沃的天平：在卡扎多尔地牢中发现的饰品（乐器），隐藏物品。
-
-卡扎宅邸（-1309 1021）的隐藏活板门下去走过两个门里有一个上锁的箱子，物品在里面。
+5. 凯兰沃的天平：在卡扎多尔地牢中发现的饰品（乐器），隐藏物品。卡扎宅邸（-1309 1021）的隐藏活板门下去走过两个门里有一个上锁的箱子，物品在里面。
 
 ---
 
-#### 第三步：成为高等亡灵
+### 第三步：成为高等亡灵
 
 1. 成为吸血鬼（见上一步）
-
 2. 阅读《巴萨扎尔编年史》（月初之塔巴萨扎尔密室里）
+3. 使用法术"高等死灵术的秘密 - 冥想"
+4. 使用鬼婆药水"爱人的贪婪"和"枯萎梦境"
+5. 长休几次，每次进行一次感知DC20的豁免检定，如果失败了则受到3d8心灵伤害，并做噩梦，且此次长休不算在内，如果成功3次，则试炼完成。
 
-3. 使用法术“高等死灵术的秘密 - 冥想”
-
-4. 使用鬼婆药水“爱人的贪婪”和“枯萎梦境”
-
-5. 长休几次，每次进行一次感知DC20的豁免检定，如果失败了则受到3d8心灵伤害，并做噩梦，且此次长休不算在内，如果成功3此，则试炼完成。
-
-#### 能力：
+### 能力：
 
 1. 高等亡灵：免疫毒素和黯蚀；寒冷抗性；免疫魅惑、疯狂、恐吓、发笑和控制不死生物；对光耀、火焰和强酸易伤
-
 2. 你的法术+1d8黯蚀伤害
-
 3. 除非被光耀、火焰、强酸或重击命中，否则你无法倒地。当此效果触发并且重新站起来时，你会恢复你的移动速度和附赠动作，但不会获得动作。
-
 4. 噩梦与梦境：解锁10个新的夜间活动，5个是新的噩梦，5个是好梦（带来增益），其中4个是专属于邪念的，并且取决于你是屈服于黑暗还是抵抗它，如果你服用了箴言菇则阻止噩梦，20%几率触发高等亡灵之夜事件，5%触发吸血鬼之夜事件
 
-噩梦与梦境列表：
+噩梦与梦境列表：虚空低语（噩梦：当被重度遮蔽时隐匿检定劣势）、被遗忘的倒影（噩梦：一天之内魅力-1）、瘟疫（噩梦：当天无法使用附赠动作）、绿洲（好梦：最多无视5点伤害直到你攻击，战斗结束后刷新）、和平森林（好梦：将你的熟练项加值添加到魅力检定中）、内心图书馆（好梦：在奥秘、历史和宗教检定中具有优势）、羊群中的狼（好梦：当敌人进入你的领地时，他们必须成功进行感知豁免检定否则被恐吓）、死亡先驱（好梦：杀死生物时陷入疯狂直到下一回合结束，造成额外的物理伤害，并在2次攻击掷骰中获得加值）、糖果武器（噩梦：攻击掷骰受到1d6的惩罚，未命中时受到2d6心灵伤害）、内心的邪恶（噩梦：每分钟进行感知豁免检定防止一回合内变得疯狂）
 
-虚空低语（噩梦）：当被重度遮蔽时，你在隐匿检定中劣势
-
-被遗忘的倒影（噩梦）：一天之内魅力-1
-
-瘟疫（噩梦）：当天无法使用附赠动作
-
-绿洲（好梦）：最多无视5点伤害，直到你攻击，战斗结束后刷新
-
-和平森林（好梦）：将你的熟练项加值添加到魅力检定中
-
-内心图书馆（好梦）：在奥秘、历史和宗教检定中具有优势
-
-羊群中的狼（好梦）：当敌人进入你的领地时，他们必须成功进行感知豁免检定，否则被恐吓
-
-死亡先驱（好梦）：杀死生物时，你会陷入疯狂直到下一回合结束，你造成额外的物理伤害，并在2此攻击掷骰中获得加值
-
-糖果武器（噩梦）：你的攻击掷骰受到1d6的惩罚，当你未命中时，受到2d6的心灵伤害
-
-内心的邪恶（噩梦）：每分钟，你都会进行一个感知豁免检定，防止在一回合内变得疯狂，直到你满足/高兴
-
-#### 模组和角色互动：
+### 模组和角色互动：
 
 1. 堕落的阿斯莫（种族）：没有光耀易伤
-
 2. 死亡之歌盔甲或死灵师10级（装备和职业）：没有火焰和强酸易伤
-
 3. 同时具备上两者：+2伤害减免
-
 4. 死亡之歌头饰（装备）：对抗命令亡灵的优势
-
 5. 恐惧主宰（子职）：冥界武装可以免费施放
-
-6. 邪念（起源）：当你对一个生物重击时，该生物和附近的任何敌怪必须成功进行感知豁免检定，否则被恐吓，直到下回合结束。如果没有抗性或免疫，则会穿刺易伤。
-
+6. 邪念（起源）：当你对一个生物重击时，该生物和附近的任何敌怪必须成功进行感知豁免检定，否则被恐吓直到下回合结束。如果没有抗性或免疫，则会穿刺易伤。
 7. 黑卫（主职）：职业能力加强
 
-#### 可获得的力量：
+### 可获得的力量：
 
 1. 使用给予的法术摧毁死灵珍爱法杖（秘术师掉的那把）获得：增强死灵法术，生物在对抗你的死灵法术的豁免检定处于劣势；用法术杀死一个生物时，吸收它的能量获得生命净化，生命精华可用于下一个死灵法术不消耗法术位，生命精华可叠加，一次消耗叠加一层，长休后剩余的层数将被吸收为永久最大生命值（7层换1点）
-
 2. 恐惧主宰：被神罚（从风暴海岸教会偷窃），击败追赶你的神圣圣武士（在偷东西后几秒钟就会出现，上Buff就偷前上，并且你的队友无法参战，只能你一人战斗）
-
-#### 提示：可以在风暴海岸教会的雕像前摆放一个被亵渎的尸体可获得50回合的免疫光耀伤害状态。
-
 3. 霸主：在战术家或荣誉模式下，与秘术师的战斗中，击中它也触发它的反应，在被施加状态时，通过豁免检定打破，每回合有一次机会，成功后赋予霸主特性：对支配免疫。
 
+> **提示：可以在风暴海岸教会的雕像前摆放一个被亵渎的尸体可获得50回合的免疫光耀伤害状态。**
+
 ---
 
-#### 最终：巫妖
+### 最终：巫妖
 
 1. 成为高等亡灵
-
-2. 使用《萨奇亚特法典》破译《塞尔死灵法术典籍》从而获得“秘典秘密”（被动）
-
-3. 从赫尔希克（魔鬼的小费商人）购买一个命匣(价值20K 叫“精心打造的地狱铁瓶”)
-
-4. 在夜间使用法术“开始升魔仪式”（只能在营地长休的夜间使用）
-
-5. 使用鬼婆的药水“遗失时光”和“石之心”
-
-6. 施放法术“开始试炼”
-
+2. 使用《萨奇亚特法典》破译《塞尔死灵法术典籍》从而获得"秘典秘密"（被动）
+3. 从赫尔希克（魔鬼的小费商人）购买一个命匣(价值20K 叫"精心打造的地狱铁瓶")
+4. 在夜间使用法术"开始升魔仪式"（只能在营地长休的夜间使用）
+5. 使用鬼婆的药水"遗失时光"和"石之心"
+6. 施放法术"开始试炼"
 7. 在试炼中存活下来，你必须在20次豁免检定成功10次（DC 25），否则你就会永远死去（除非你和某个神是朋友，就是必须读档）
 
-#### 能力：
+### 能力：
 
 1. 巫妖：+3DC
-
-2. 命匣：只要充满能量，就拥有以下力量
-
-死亡时100%生命复活；
-
-光耀、火焰和强酸抗性；
-
-对诅咒、沉默和流血免疫；
-
-非魔法的物理攻击抗性；
-
-法术豁免检定优势。
-
-当你复活时，你的命匣力量耗尽，失去上述BUFF。需要长休恢复，也可以牺牲100%生命值来手动补充
-
+2. 命匣：只要充满能量，就拥有以下力量：死亡时100%生命复活；光耀、火焰和强酸抗性；对诅咒、沉默和流血免疫；非魔法的物理攻击抗性；法术豁免检定优势。当你复活时，你的命匣力量耗尽，失去上述BUFF。需要长休恢复，也可以牺牲100%生命值来手动补充。
 3. 不死坚韧：触发时，恢复动作
+4. 好梦与噩梦：解锁5个新好梦，20%触发巫妖领地之夜事件，4%触发高等亡灵之夜事件，1%触发吸血鬼之夜事件
 
-4. 好梦与噩梦：解锁5个新好梦，20%触发巫妖领地之夜事件，4%触发高等亡灵之夜时间，1%触发吸血鬼之夜事件
+好梦：当天随机属性+2；附近的不死盟友召唤物会获得与你熟练项加值相同的攻击掷骰加成；每掷出可以重投一次；生命值提升25%；当天所有的技能检定、属性检定和豁免检定获得+1
 
-（好梦）：当天随机属性+2
-
-（好梦）：附近的不死盟友召唤物会获得与你熟练项加值相同的攻击掷骰加成
-
-（好梦）：每掷出可以重投一次
-
-（好梦）：生命值提升25%
-
-（好梦）：当天所有的技能检定、属性检定和豁免检定获得a+1
-
-#### 模组和角色互动：
+### 模组和角色互动：
 
 1. 堕落的阿斯莫：光耀抗性
-
 2. 死亡之歌或死灵师10级：火焰和强酸抗性
-
-3. 恐惧主宰：如果拥有“亵渎活力”，每次对你的黯蚀伤害会治愈你，其数值与你的体质调整值相同（每次攻击一次）
-
+3. 恐惧主宰：如果拥有"亵渎活力"，每次对你的黯蚀伤害会治愈你，其数值与你的体质调整值相同（每次攻击一次）
 4. 邪念：当你的命匣充满时，你可以对活着的目标施放"死亡使者的绝命言杀"。将进行感知豁免检定。失败时，目标被杀死。成功时，对目标造成5d6+20黯蚀伤害（会消耗命匣能量）
-
-5. 灵吸怪威能大修2：如果你拥有“心灵堡垒”，则会免疫心灵伤害，并拥有力场伤害抗性
-
-6. 半灵吸怪：原版：灵吸怪之力额外造成1d4黯蚀伤害（造成伤害的主动伤害）；灵吸怪威能大修2：同上+每个等级1点伤害
-
+5. 灵吸怪威能大修2：如果你拥有"心灵堡垒"，则会免疫心灵伤害，并拥有力场伤害抗性
+6. 半灵吸怪：原版灵吸怪之力额外造成1d4黯蚀伤害；灵吸怪威能大修2：同上+每个等级1点伤害
 7. 灵吸怪：不死仆从造成+1d4心灵伤害；灵吸怪威能大修2：同上+每个等级1点伤害
-
 8. 黑卫：职业增强
 
-#### 可获得的力量：
+### 可获得的力量：
 
-第三幕有3种强大的石头可用。会为使用者提供被动，解锁致命法术。
+第三幕有3种强大的石头可用。会为使用者提供被动，解锁致命法术。被动可供任何人使用，法术需要有"秘典秘密"。这些法术需要6环幽影法术位。"秘典秘密"会给一个，其他每个石头额外给一个，这些法术位可以用来施放其他法术，但普通法术位不能施放这些法术。
 
-被动可供任何人使用，法术需要有“秘典秘密”
+1. **炎狱火石**：拉斐尔在希望府邸的隐藏金库，摩尔的合同旁边。被动：所有行为增加1d6地狱火（不可阻挡）伤害（可切换）。法术：湮灭 给予目标状态：汹涌地狱火
+2. **深渊心石**：底城废墟 古代密室。被动：每回合，对你周围6m的盟友不死生物发出1d6黯蚀伤害和1d6治疗的脉冲。法术：死灵潮涌 给予目标状态：死亡边缘
+3. **死亡位面幽影碎片**：哀伤之邸 阴郁回廊。被动：你自然会更加模糊，对任何类型的失明免疫。法术：魔网衰败 给予目标状态：魔网衰落
 
-这些法术需要6环幽影法术位
+石头之间的法术和施加的状态有相互作用：对"死亡边缘"的目标施放"湮灭"，会传播至"死亡边缘"的附近实体（可以连锁）；对"魔网衰落"的目标施放"湮灭"，会燃烧其所有可用的法术位，造成对应伤害；对"汹涌地狱火"的目标施放"死灵潮涌"，产生巨大的地狱火爆炸，造成5d10地狱火+5d10暗蚀；对"魔网衰弱"的目标施放"死灵潮涌"，会将敌怪拉向中心；"魔网衰弱"和"死亡边缘"的敌怪在生命值低于15%时会被处决；敌怪身上的"汹涌地狱火"会持续至他们"魔网衰弱"的时长。
 
-“秘典秘密”会给一个，其他每个石头额外给一个，这些法术位可以用来施放其他法术，但普通法术位不能施放这些法术。
+4. **永恒存在**：击败安苏后将面临更大的挑战，在龙的尸体附近可以进行仪式来接受挑战，并面对龙巫妖的化身。作为一种挑战，你将独自面对它，活人将因它的存在而灭亡。这场战斗需要一些特殊性需要发现，这样你才能获胜。击败它后你将获得这种能力。
 
-1. 炎狱火石：拉斐尔在希望府邸的隐藏金库，摩尔的合同旁边
-
-被动：所有行为增加1d6地狱火（不可阻挡）伤害（可切换）
-
-法术：湮灭 给予目标状态：汹涌地狱火
-
-2. 深渊心石：底城废墟 古代密室
-
-被动：每回合，对你周围6m的盟友不死生物发出1d6黯蚀伤害和1d6治疗的脉冲
-
-法术：死灵潮涌 给予目标状态：死亡边缘
-
-3. 死亡位面幽影碎片：哀伤之邸 阴郁回廊
-
-被动：你自然会更加模糊，对任何类型的失明免疫
-
-法术：魔网衰败 给予目标状态：魔网衰落
-
-石头之间的法术和施加的状态有相互作用
-
-对“死亡边缘”的目标施放“湮灭”，会传播至“死亡边缘”的附近实体（可以连锁）
-
-对“魔网衰落”的目标施放“湮灭”，会燃烧其所有可用的法术位，造成对应伤害
-
-对“汹涌地狱火”的目标施放“死灵潮涌”，产生巨大的地狱火爆炸，造成5d10地狱火+5d10暗蚀
-
-对“魔网衰弱”的目标施放“死灵潮涌”，会将敌怪拉向中心
-
-“魔网衰弱”和“死亡边缘”的敌怪在生命值低于15%时会被处决
-
-敌怪身上的“汹涌地狱火”会持续至他们“魔网衰弱”的时长
-
-4. 永恒存在：击败安苏后将面临更大的挑战，在龙的尸体附近可以进行仪式来接受挑战，并面对龙巫妖的化身。
-
-作为一种挑战，你将独自面对它，活人将因它的存在而灭亡
-
-这场战斗需要一些特殊性需要发现，这样你才能获胜
-
-击败它后你将获得这种能力
-
-#### 剧透：需要上面的三块石头的法术才能打败它，湮灭移除他的无敌，死灵潮涌阻止他的治疗，魔网衰败消除他的伤害减免。
-
-如果装了“正义之路”模组想升级剑，建议先打了boss再升级
-
-效果：在你熟练的任何能力上重新掷出低于10的掷骰
+> **剧透：需要上面的三块石头的法术才能打败它，湮灭移除他的无敌，死灵潮涌阻止他的治疗，魔网衰败消除他的伤害减免。如果装了"正义之路"模组想升级剑，建议先打了boss再升级。效果：在你熟练的任何能力上重新掷出低于10的掷骰。**
 
 5. 恐惧主宰（子职）：获取同上，效果为，每回合施放的第一个死灵法术不消耗动作
-
 6. 恐惧主宰（子职）：获取同上，效果为，变身为龙巫妖的化身
+7. **奥术巫妖（正义之路）**：在巫妖仪式期间，让一名队员在你附近（18m）佩戴全套传奇的正义之路（需要最终升级的剑）。如果他们什么都不做，你就会成为大主教。当他们在附近时，你在仪式期间获得+1掷骰。效果：在每个回合开始时，大巫妖会重新获得一个已消耗的3环或更低的法术位（优先考虑高环）；每当大巫妖在意识状态下被4级或以下的法术瞄准时，它可以选择不受其影响；大巫妖可以从物质位面转移到空灵位面，反之亦然；每回合一次，大巫妖可以使用附赠动作施放一个最高5环的法术。
 
-7. 奥术巫妖（正义之路）：在巫妖仪式期间，让一名队员在你附近（18m）佩戴全套传奇的正义之路（需要最终升级的剑）。如果他们什么都不做，你就会成为大主教。当他们在附近时，你在仪式期间获得+1掷骰。
+> **备注：这些效果是与成为巫妖相关的一切，如果正义冠军在仪式中击中你，你就不会成为大巫妖，并且在仪式的豁免检定中承受-1d10，你会在吸血鬼阶段得到一个梦暗示了这种情况，高等亡灵阶段会得到另一个梦。**
 
-效果：在每个回合开始时，大巫妖会重新获得一个已消耗的3环或更低的法术位（优先考虑高环）；
+8. **光辉不朽（正义之路）**：获取同上，但是你自己是正义冠军，因此在仪式期间，豁免+1变为+3。效果：仅限邪念：+1黯蚀伤害（每个阶段+1）和+1光耀伤害；吸血鬼：你对生者造成的黯蚀伤害会治愈你1点生命值，同样适用于恶魔、妖精、不死生物、异怪和怪兽造成的光耀伤害；+1d8你的法术的暗蚀伤害变为+1d8光耀伤害；可以吸收凯兰沃的天平永久获取其力量，没有缺点。
 
-每当大巫妖在意识状态下被4级或以下的法术瞄准时，它可以选择不受其影响；
-
-大巫妖可以从物质位面转移到空灵位面，反之亦然；
-
-每回合一次，大巫妖可以使用附赠动作施放一个最高5环的法术
-
-#### 备注：这些效果是与成为巫妖相关的一切，如果正义冠军在仪式中击中你，你就不会成为大巫妖，并且在仪式的豁免检定中承受-1d10，你会在吸血鬼阶段得到一个梦暗示了这种情况，高等亡灵阶段会得到另一个梦。
-
-8. 光辉不朽（正义之路）：获取同上，但是你自己是正义冠军，因此在仪式期间，豁免+1变为+3。
-
-效果：仅限邪念：+1黯蚀伤害（每个阶段+1）➡+1光耀伤害；
-
-吸血鬼：你对生者造成的黯蚀伤害会治愈你1点生命值➡同样适用于恶魔、妖精、不死生物、异怪和怪兽造成的光耀伤害；
-
-+1d8你的法术的暗蚀伤害➡+1d8光耀伤害；
-
-可以吸收凯兰沃的天平永久获取其力量，没有缺点
-
-#### 备注：这些效果是与成为巫妖相关的一切。你会得到奉献和王冠之誓的信条来维护
-
-你需要装备全套正义之路装备（这需要成为圣武士并遵守誓言）才能从这些功能中收益。
-
----
-
-夜独整合包 Wiki | 博德之门3 MOD整合包攻略站
-
-作者：在下夜独 | B站发布 | 永久免费
-
-▲
-退出编辑
-保存修改
-编辑模式已开启，点击文字即可修改
-
-// Disable page editing in the published wiki
-document.body.classList.remove('edit-mode');
-document.querySelectorAll('[contenteditable]').forEach(function(el) {
- el.removeAttribute('contenteditable');
-});
-
-// ===== jumpTo function =====
-function jumpTo(id) {
- var el = document.getElementById(id);
- if (el) {
- // Close sidebar before scrolling on mobile to avoid fixed overlay/sidebar interfering with anchor navigation
- if (window.innerWidth = 0 || query === '' ? 'block' : 'none';
- });
- document.querySelectorAll('.nav-item').forEach(function(item) {
- var sub = item.nextElementSibling;
- if (sub && query !== '') {
- var visible = sub.querySelectorAll('a[style*="block"]').length > 0;
- item.style.display = visible ? 'flex' : 'none';
- if (visible) {
- item.classList.add('open');
- sub.classList.add('show');
- }
- } else if (query === '') {
- item.style.display = 'flex';
- }
- });
-}
-
-// ===== Enhanced search: search main content =====
-(function() {
- var input = document.getElementById('searchInput');
- var searchTimeout = null;
- var resultsPanel = document.getElementById('search-results');
-
- input.addEventListener('input', function() {
- clearTimeout(searchTimeout);
- searchTimeout = setTimeout(function() {
- var query = input.value.trim();
- clearHighlights();
- if (query.length = 0) {
- // Walk up to find the section id
- var section = el.closest('[id^="ch"]');
- if (section) matchedSections.add(section.id);
- // Also check subsection
- var subsection = el.closest('[id^="ch"][class*="subsection"]');
- if (subsection) matchedSections.add(subsection.id);
- }
- });
-
- // Update nav: show links whose href targets contain matches
- document.querySelectorAll('.nav-sub a').forEach(function(a) {
- var href = a.getAttribute('href');
- if (!href) return;
- var targetId = href.replace('#', '');
- var targetEl = document.getElementById(targetId);
- if (!targetEl) { a.style.display = 'none'; return; }
- // Check if target element or any of its children contain the query
- var containsMatch = targetEl.textContent.toLowerCase().indexOf(lowerQuery) >= 0;
- a.style.display = containsMatch ? 'block' : 'none';
- });
-
- // Show parent nav-items that have visible children
- document.querySelectorAll('.nav-item').forEach(function(item) {
- var sub = item.nextElementSibling;
- if (sub) {
- var visible = sub.querySelectorAll('a[style*="block"]').length > 0;
- item.style.display = visible ? 'flex' : 'none';
- if (visible) {
- item.classList.add('open');
- sub.classList.add('show');
- }
- }
- });
-
- // Collect search results with context snippets
- var results = [];
- var paragraphs = mainEl.querySelectorAll('p, li');
- paragraphs.forEach(function(el) {
- var text = el.textContent.trim();
- if (text.length = 0) {
- // Find closest ancestor with an id for navigation
- var navTarget = el.closest('[id]');
- var sectionId = navTarget ? navTarget.id : '';
- // If no id found, walk up to section/subsection
- if (!sectionId) {
- var section = el.closest('.section, .subsection');
- if (section) sectionId = section.id || '';
- }
- // Get title from closest section/subsection heading
- var title = '未知章节';
- var section = el.closest('.section, .subsection');
- if (section) {
- var heading = section.querySelector('h2, h3');
- if (heading) title = heading.textContent.trim();
- }
- // Build snippet with context
- var start = Math.max(0, idx - 30);
- var end = Math.min(text.length, idx + query.length + 30);
- var snippet = (start > 0 ? '...' : '') + text.substring(start, end) + (end = 0) {
- snippet = snippet.substring(0, localIdx) + '' + snippet.substring(localIdx, localIdx + query.length) + '' + snippet.substring(localIdx + query.length);
- }
- results.push({title: title, snippet: snippet, id: sectionId, element: el});
- }
- });
- // Deduplicate by snippet content, not by title (same section can have multiple matches)
- var seen = {};
- var uniqueResults = [];
- results.forEach(function(r) {
- var key = r.snippet; // use snippet as dedup key
- if (!seen[key] && uniqueResults.length 0) {
- var html = '找到 ' + uniqueResults.length + ' 个相关段落';
- uniqueResults.forEach(function(r, i) {
- var clickHandler = r.id ? "jumpTo('" + r.id + "')" : '';
- html += '';
- html += '' + r.title + '';
- html += '' + r.snippet + '';
- html += '';
- });
- resultsPanel.innerHTML = html;
- resultsPanel.classList.add('show');
- } else {
- resultsPanel.innerHTML = '未找到相关内容';
- resultsPanel.classList.add('show');
- }
-
- // Highlight matches in content
- candidates.forEach(function(el) {
- highlightInElement(el, query, lowerQuery);
- });
-
- // Scroll to first highlight
- var first = document.querySelector('.search-highlight');
- if (first) {
- first.scrollIntoView({behavior: 'smooth', block: 'center'});
- // Update active nav based on scroll position
- setTimeout(function() { updateActiveNavOnScroll(); }, 500);
- }
- }, 300);
- });
-
- function highlightInElement(el, query, lowerQuery) {
- if (el.classList && el.classList.contains('search-highlight')) return;
- var children = [];
- for (var i = 0; i = 0) {
- var before = text.substring(0, idx);
- var match = text.substring(idx, idx + query.length);
- var after = text.substring(idx + query.length);
- var span = document.createElement('span');
- span.className = 'search-highlight';
- span.style.cssText = 'background:#ff0;color:#000;padding:0 2px;border-radius:2px;';
- span.textContent = match;
- var frag = document.createDocumentFragment();
- if (before) frag.appendChild(document.createTextNode(before));
- frag.appendChild(span);
- if (after) frag.appendChild(document.createTextNode(after));
- el.replaceChild(frag, child);
- }
- } else if (child.nodeType === 1) {
- var tag = child.tagName;
- if (tag !== 'SCRIPT' && tag !== 'STYLE' && tag !== 'CODE' && tag !== 'PRE') {
- highlightInElement(child, query, lowerQuery);
- }
- }
- });
- }
-
- function clearHighlights() {
- document.querySelectorAll('.search-highlight').forEach(function(el) {
- var parent = el.parentNode;
- parent.replaceChild(document.createTextNode(el.textContent), el);
- parent.normalize();
- });
- }
-
- // Update nav active state on scroll
- var scrollUpdateTimer = null;
- var suppressScrollUpdate = false;
-
- function clearAllActive() {
- document.querySelectorAll('.active').forEach(function(el) { el.classList.remove('active'); });
- }
-
- function setActiveNav(id) {
- clearAllActive();
- var link = document.querySelector('.nav-sub a[href="#' + id + '"]');
- if (link) {
- link.classList.add('active');
- var parentSub = link.closest('.nav-sub');
- if (parentSub) {
- var parentItem = parentSub.previousElementSibling;
- if (parentItem && parentItem.classList.contains('nav-item')) {
- parentItem.classList.add('active');
- }
- }
- }
- }
-
- function updateActiveNavOnScroll() {
- if (suppressScrollUpdate) return;
- var links = document.querySelectorAll('.nav-sub a[href^="#"]');
- var scrollPos = window.scrollY + 150;
- var currentId = null;
- links.forEach(function(link) {
- var href = link.getAttribute('href').replace('#', '');
- var el = document.getElementById(href);
- if (el) {
- var rect = el.getBoundingClientRect();
- var top = rect.top + window.scrollY;
- if (top 0) return;
- clearTimeout(scrollUpdateTimer);
- scrollUpdateTimer = setTimeout(updateActiveNavOnScroll, 100);
- });
-})();
-
-// ===== Back to top button =====
-window.addEventListener('scroll', function() {
- var btn = document.getElementById('back-top');
- if (window.scrollY > 400) {
- btn.classList.add('show');
- } else {
- btn.classList.remove('show');
- }
-});
-
-// ===== Scroll spy =====
-var sections = document.querySelectorAll('.section[id], .subsection[id]');
-window.addEventListener('scroll', function() {
- var scrollPos = window.scrollY + 120;
- var activeSection = null;
- var activeLink = null;
- sections.forEach(function(section) {
- var top = section.offsetTop;
- var bottom = top + section.offsetHeight;
- var id = section.getAttribute('id');
- var link = document.querySelector('.nav-sub a[href="#' + id + '"]');
- if (link) {
- if (scrollPos >= top && scrollPos 
-
-(function() {
- var editMode = false;
- var editableEls = [];
-
- window.toggleEdit = function() {
- editMode = !editMode;
- var btn = document.getElementById('edit-btn');
- var saveBtn = document.getElementById('save-btn');
- var main = document.getElementById('main');
-
- if (editMode) {
- btn.classList.add('active');
- btn.textContent = '退出编辑';
- saveBtn.style.display = 'block';
- document.body.classList.add('edit-mode');
- // Make all text content editable
- var targets = main.querySelectorAll('.card p, .card li, .card h3, .card h4, .card td, .card th, .section-desc, .subsection-title, .section-title, .hero p, .alert p, .alert li, table td, table th');
- targets.forEach(function(el) {
- el.setAttribute('contenteditable', 'true');
- editableEls.push(el);
- });
- showToast('编辑模式已开启，点击文字即可修改');
- } else {
- btn.classList.remove('active');
- btn.textContent = '编辑模式';
- saveBtn.style.display = 'none';
- document.body.classList.remove('edit-mode');
- editableEls.forEach(function(el) {
- el.removeAttribute('contenteditable');
- });
- editableEls = [];
- showToast('已退出编辑模式');
- }
- };
-
- window.saveEdit = function() {
- // Get the full HTML content
- var html = document.documentElement.outerHTML;
- // Create a blob and download
- var blob = new Blob([html], { type: 'text/html;charset=utf-8' });
- var url = URL.createObjectURL(blob);
- var a = document.createElement('a');
- a.href = url;
- a.download = 'bg3-mod-wiki.html';
- document.body.appendChild(a);
- a.click();
- document.body.removeChild(a);
- URL.revokeObjectURL(url);
- showToast('文件已保存！请用下载的文件替换原文件');
- };
-
- function showToast(msg) {
- var toast = document.getElementById('edit-toast');
- toast.textContent = msg;
- toast.classList.add('show');
- setTimeout(function() {
- toast.classList.remove('show');
- }, 2500);
- }
-})();
+> **备注：这些效果是与成为巫妖相关的一切。你会得到奉献和王冠之誓的信条来维护。你需要装备全套正义之路装备（这需要成为圣武士并遵守誓言）才能从这些功能中收益。**
