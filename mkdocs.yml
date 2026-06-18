@@ -47,8 +47,8 @@ markdown_extensions:
 nav:
   - 首页: index.md
   - 新手入门: ch1-start.md
-  - MOD工具与教程: ch2-mod.md
-  - 常见问题汇总: ch3-faq.md
+  - 使用指南: ch2-mod.md
+  - 常见问题: ch3-faq.md
   - 职业攻略: ch4-class.md
   - 种族攻略: ch6-race.md
   - 专长攻略: ch7-divinity.md
