@@ -74,20 +74,67 @@ nav:
     - 装备幻化: ch2-transmog.md
     - MCM角色预设导入导出: ch2-mcm.md
     - SE控制台代码: ch2-se.md
-  - 常见问题汇总: ch3-faq.md
+  - 常见问题汇总:
+    - MCM相关: ch3-mcm.md
+    - 剧情问题: ch3-juqing.md
+    - 难度调整: ch3-nandu.md
+    - 技能问题: ch3-jineng.md
+    - 谪仙问题: ch3-zhexian.md
+    - 自动功能: ch3-zidong.md
+    - 捏脸不正常: ch3-nielian.md
+    - Mod不生效 + Mod自动跑管理器右边: ch3-mod-bug.md
   - 职业攻略:
+    - 专属物品: ch4-exclusive-items.md
     - 灭法之影: ch4-miefa.md
+    - 风水师: ch4-fengshui.md
+    - 棋手: ch4-chess.md
+    - 狩魔猎人: ch4-witcher.md
+    - 魔网黑客: ch4-hacker.md
+    - 蕈研人: ch4-mushroom.md
+    - 武侠子职合集: ch5-wuxia.md
+    - 工匠背景: ch10-artisan.md
   - 种族攻略:
-    - 谪仙种族详解: ch6-exile.md
+    - 谪仙种族详解: ch6-zhexian-detail.md
+    - 死亡遗产详解: ch6-death-heritage.md
   - 专长攻略:
     - 封神之路: ch7-divinity.md
+    - 专长8：神格能力: ch7-divinity-p8.md
+    - 专长9-18：元素之神: ch7-divinity-p9-18.md
+    - 专长19：徒手之神: ch7-divinity-p19.md
+    - 专长20：投掷之神: ch7-divinity-p20.md
+    - 专长21：近战之神: ch7-divinity-p21.md
+    - 专长22：远程之神: ch7-divinity-p22.md
+    - 专长23：法术之神: ch7-divinity-p23.md
+    - 专长24：戏法之神: ch7-divinity-p24.md
+    - 专长25：刺客之神: ch7-divinity-p25.md
+    - 专长26：猎杀之神: ch7-divinity-p26.md
+    - 专长27：原罪之神: ch7-divinity-p27.md
+    - 专长28：美德之神: ch7-divinity-p28.md
+    - 泰坦之握: ch7-titan.md
+    - 鲜血恩惠: ch7-blood.md
   - 装备攻略:
-    - 12符咒: ch8-talisman.md
-  - 召唤攻略: ch9-summon.md
+    - 12符咒: ch8-charms.md
+    - 扩容设备: ch8-expansion.md
+    - 生离死别: ch8-moonsong.md
+    - 正义之路: ch8-justice.md
+    - 死亡之歌: ch8-death.md
+    - 纷争物品包: ch8-strife.md
+    - 维克那法袍: ch8-vecna-robe.md
+  - 召唤攻略:
+    - 进化系列召唤物: ch9-evolution.md
+  - 自选模组说明:
+    - MCM数据统计: ch10-mcm-data.md
+    - 功能-星命: ch10-star.md
+    - 肉鸽模式: ch10-roguelike.md
+    - 亡灵之路: ch10-undeath.md
   - 难度攻略:
-    - Dota难度: ch11-dota.md
-  - 炼金术: ch12-alchemy.md
-  - 自选模组说明: ch10-mod.md
+    - Dota难度: ch11-dota-difficulty.md
+    - 动态精英: ch11-dynamic-elite.md
+    - 动态遭遇: ch11-dynamic-encounter.md
+    - 骷髅挑战: ch11-skeleton-challenge.md
+  - 炼金术:
+    - 塔莎炼金术: ch12-tasha.md
+    - 纷争炼金术: ch12-strife-alchemy.md
 
 extra:
   social:
