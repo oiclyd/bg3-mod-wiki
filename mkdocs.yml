@@ -26,15 +26,10 @@ theme:
     code: JetBrains Mono
   favicon: assets/images/favicon.png
   features:
-    - navigation.tabs
-    - navigation.sections
     - navigation.top
-    - navigation.tracking
-    - toc.integrate
     - search.suggest
     - search.highlight
     - content.code.copy
-    - content.tabs.link
   custom_dir: overrides
   extra_css:
     - stylesheets/extra.css

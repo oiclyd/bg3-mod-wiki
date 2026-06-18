@@ -9,10 +9,6 @@
     background: linear-gradient(90deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%) !important;
 }
 
-.md-tabs {
-    background: linear-gradient(90deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%) !important;
-}
-
 .md-typeset h1 {
     color: #ffc107;
     border-bottom: 2px solid #ffc107;
@@ -48,17 +44,4 @@
 
 .md-typeset table tr:hover {
     background: rgba(255, 193, 7, 0.05);
-}
-
-/* 交换左右侧边栏：左侧显示TOC，右侧显示导航 */
-@media screen and (min-width: 76.25em) {
-    .md-sidebar--primary {
-        order: 1;
-    }
-    .md-sidebar--secondary {
-        order: 2;
-    }
-    .md-content {
-        order: 3;
-    }
 }
