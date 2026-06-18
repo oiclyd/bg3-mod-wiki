@@ -45,3 +45,13 @@
 .md-typeset table tr:hover {
     background: rgba(255, 193, 7, 0.05);
 }
+
+/* Hide global nav items in right sidebar, only show current page TOC */
+.md-sidebar--secondary .md-nav__item {
+    display: none;
+}
+
+.md-sidebar--secondary .md-nav__item.md-nav__item--active,
+.md-sidebar--secondary .md-nav__item.md-nav__item--active ~ .md-nav__item {
+    display: block;
+}
