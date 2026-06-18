@@ -10,7 +10,7 @@
 
 本整合包由B站UP主 "[在下夜独](https://space.bilibili.com/16303982)" 制作发布，**永久免费**，任何付费渠道均为盗传。
 
-MOD整合包下载地址：<span style="color: #ffc107;">内含MOD安装器（集成一键安装、备份、还原、卸载、迁移MOD等功能）</span>
+MOD整合包下载地址：<span style="color: #4CAF50;">内含MOD安装器（集成一键安装、备份、还原、卸载、迁移MOD等功能）</span>
 
 [移动云盘（不限速）](https://caiyun.139.com/m/i?075CtoTN5xUYB)
 
