@@ -33,7 +33,7 @@ theme:
     - search.highlight
     - content.code.copy
     - content.tabs.link
-    - edit.link
+    - content.action.edit
 
 plugins:
   - search:
