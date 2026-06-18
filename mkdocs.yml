@@ -26,10 +26,12 @@ theme:
     - navigation.sections
     - navigation.expand
     - navigation.top
+    - navigation.tracking
     - search.suggest
     - search.highlight
     - content.code.copy
     - content.tabs.link
+    - edit.link
 
 plugins:
   - search:
@@ -87,6 +89,7 @@ extra:
       link: https://space.bilibili.com/
       name: B站主页
   generator: false
+  edit_uri: edit/main/docs/
 
 copyright: |
   &copy; 2024 在下夜独 | 
