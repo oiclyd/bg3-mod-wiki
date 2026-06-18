@@ -2,6 +2,8 @@ site_name: 夜独整合包 Wiki
 site_description: 博德之门3 MOD整合包攻略站
 site_author: 在下夜独
 site_url: https://oiclyd.github.io/bg3-mod-wiki
+repo_url: https://github.com/oiclyd/bg3-mod-wiki
+edit_uri: edit/main/docs/
 
 theme:
   name: material
@@ -89,8 +91,6 @@ extra:
       link: https://space.bilibili.com/
       name: B站主页
   generator: false
-  repo_url: https://github.com/oiclyd/bg3-mod-wiki
-  edit_uri: edit/main/docs/
 
 copyright: |
   &copy; 2024 在下夜独 | 
