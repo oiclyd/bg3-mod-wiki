@@ -24,15 +24,38 @@
   font-weight: 700;
   border-bottom: 2px solid #d4a017;
   padding-bottom: 0.3em;
+  margin-top: 1.5em;
 }
 
 .md-typeset h2 {
   color: #e8c547;
   font-weight: 600;
+  background: linear-gradient(135deg, rgba(212, 160, 23, 0.15) 0%, rgba(212, 160, 23, 0.05) 100%);
+  border: 1px solid rgba(212, 160, 23, 0.3);
+  border-left: 4px solid #d4a017;
+  border-radius: 0 8px 8px 0;
+  padding: 0.6em 1em;
+  margin-top: 2em;
+  margin-bottom: 1em;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.2);
 }
 
 .md-typeset h3 {
   color: #f0d878;
+  background: rgba(212, 160, 23, 0.08);
+  border: 1px solid rgba(212, 160, 23, 0.2);
+  border-left: 3px solid #b8860b;
+  border-radius: 0 6px 6px 0;
+  padding: 0.4em 0.8em;
+  margin-top: 1.5em;
+  margin-bottom: 0.8em;
+}
+
+.md-typeset h4 {
+  color: #d4c4a0;
+  border-bottom: 1px dashed rgba(212, 160, 23, 0.3);
+  padding-bottom: 0.2em;
+  margin-top: 1.2em;
 }
 
 .md-typeset a {
@@ -88,4 +111,15 @@
 
 .md-typeset table:not([class]) tr:hover {
   background: rgba(212, 160, 23, 0.1);
+}
+
+.md-typeset ul li,
+.md-typeset ol li {
+  margin-bottom: 0.3em;
+}
+
+.md-typeset hr {
+  border: none;
+  border-top: 1px solid rgba(212, 160, 23, 0.2);
+  margin: 2em 0;
 }
