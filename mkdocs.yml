@@ -26,7 +26,6 @@ theme:
     code: JetBrains Mono
   favicon: assets/images/favicon.png
   features:
-    - navigation.sections
     - navigation.top
     - search.suggest
     - search.highlight
