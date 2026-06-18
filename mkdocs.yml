@@ -23,10 +23,7 @@ theme:
     text: Noto Sans SC
     code: JetBrains Mono
   features:
-    - navigation.sections
-    - navigation.expand
     - navigation.top
-    - toc.integrate
     - search.suggest
     - search.highlight
     - content.code.copy
