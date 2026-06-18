@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+
+{% block extrahead %}
+  <script>
+    // 强制默认使用深色模式
+    if (!localStorage.getItem("__palette")) {
+      localStorage.setItem("__palette", JSON.stringify({
+        color: {
+          media: "(prefers-color-scheme: dark)",
+          scheme: "slate",
+          primary: "amber",
+          accent: "amber"
+        }
+      }));
+    }
+  </script>
+  {{ super() }}
+{% endblock %}

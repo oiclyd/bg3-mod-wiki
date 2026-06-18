@@ -1,0 +1,91 @@
+:root {
+  --md-primary-fg-color: #d4a017;
+  --md-primary-fg-color--light: #e8c547;
+  --md-primary-fg-color--dark: #b8860b;
+  --md-accent-fg-color: #ffd700;
+}
+
+.md-header {
+  background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+  box-shadow: 0 2px 8px rgba(0,0,0,0.3);
+}
+
+.md-tabs {
+  background: linear-gradient(135deg, #16213e 0%, #0f3460 100%);
+}
+
+.md-nav__title {
+  color: #d4a017;
+  font-weight: 600;
+}
+
+.md-typeset h1 {
+  color: #ffd700;
+  font-weight: 700;
+  border-bottom: 2px solid #d4a017;
+  padding-bottom: 0.3em;
+}
+
+.md-typeset h2 {
+  color: #e8c547;
+  font-weight: 600;
+}
+
+.md-typeset h3 {
+  color: #f0d878;
+}
+
+.md-typeset a {
+  color: #ffd700;
+  text-decoration: none;
+  border-bottom: 1px dashed #d4a017;
+}
+
+.md-typeset a:hover {
+  color: #fff;
+  border-bottom: 1px solid #ffd700;
+}
+
+.md-typeset blockquote {
+  border-left: 4px solid #d4a017;
+  background: rgba(212, 160, 23, 0.05);
+  padding: 1em;
+  border-radius: 0 4px 4px 0;
+}
+
+.md-typeset code {
+  background: rgba(212, 160, 23, 0.1);
+  color: #ffd700;
+  border-radius: 3px;
+  padding: 0.2em 0.4em;
+}
+
+.md-typeset pre {
+  background: #1a1a2e;
+  border: 1px solid #d4a017;
+  border-radius: 6px;
+}
+
+.md-footer {
+  background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+}
+
+.md-search__input {
+  background: rgba(255,255,255,0.1);
+  border-radius: 20px;
+}
+
+.md-nav__link--active {
+  color: #ffd700;
+  font-weight: 600;
+}
+
+.md-typeset table:not([class]) th {
+  background: #d4a017;
+  color: #1a1a2e;
+  font-weight: 700;
+}
+
+.md-typeset table:not([class]) tr:hover {
+  background: rgba(212, 160, 23, 0.1);
+}

@@ -21,6 +21,11 @@ theme:
       toggle:
         icon: material/brightness-4
         name: 切换到浅色模式
+  font:
+    text: Noto Sans SC
+    code: JetBrains Mono
+  logo: assets/images/logo.png
+  favicon: assets/images/favicon.png
   features:
     - navigation.tabs
     - navigation.sections
@@ -31,6 +36,7 @@ theme:
     - search.highlight
     - content.code.copy
     - content.tabs.link
+  custom_dir: overrides
 
 plugins:
   - search:
