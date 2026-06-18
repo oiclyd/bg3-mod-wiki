@@ -57,12 +57,12 @@ nav:
   - 进化攻略: ch9-summon.md
   - 难度攻略: ch11-difficulty.md
   - 炼金攻略: ch12-alchemy.md
-  - 自选模组说明: ch10-mod.md
+  - 自选模组: ch10-mod.md
 
 extra:
   social:
     - icon: fontawesome/brands/bilibili
-      link: https://space.bilibili.com/
+      link: https://space.bilibili.com/16303982
       name: B站主页
   generator: false
 
