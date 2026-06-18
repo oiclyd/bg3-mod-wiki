@@ -55,9 +55,7 @@ mkdocs build
 - 图片放在 `docs/images/` 目录下
 - 遵循 [中文文案排版指北](https://github.com/sparanoid/chinese-copywriting-guidelines)
 
-## 免责声明
 
-本整合包由B站UP主 **"在下夜独"** 制作发布，**永久免费**，任何付费渠道均为盗传。
 
 ## 许可证
 
