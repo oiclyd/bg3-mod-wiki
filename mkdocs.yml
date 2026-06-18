@@ -89,6 +89,7 @@ extra:
       link: https://space.bilibili.com/
       name: B站主页
   generator: false
+  repo_url: https://github.com/oiclyd/bg3-mod-wiki
   edit_uri: edit/main/docs/
 
 copyright: |
