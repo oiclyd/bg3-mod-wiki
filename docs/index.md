@@ -22,4 +22,4 @@
 ## 参与贡献
 
 欢迎通过 GitHub 提交 Issue 或 Pull Request 来完善本Wiki。
-
+https://github.com/oiclyd/bg3-mod-wiki
