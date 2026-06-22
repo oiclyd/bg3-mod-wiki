@@ -199,6 +199,65 @@
 ~~删除线文字~~
 `行内代码`
 
+## 代码块（语法高亮）
+
+使用三个反引号包裹代码块，在开头反引号后加上语言名称即可启用语法高亮。
+
+### Markdown 代码示例
+
+```markdown
+    ```markdown
+    # 这是一级标题
+    ## 这是二级标题
+    
+    - 列表项1
+    - 列表项2
+    
+    | 表头1 | 表头2 |
+    | --- | --- |
+    | 内容1 | 内容2 |
+    ```
+```
+
+### CSS 代码示例
+
+```markdown
+    ```css
+    .md-typeset h1 {
+        color: #ffc107;
+        border-bottom: 2px solid #ffc107;
+    }
+    ```
+```
+
+### YAML 配置示例
+
+```markdown
+    ```yaml
+    nav:
+      - 首页: index.md
+      - 装备攻略: ch8-equip.md
+    ```
+```
+
+### 其他常用语言标识
+
+| 语言 | 标识 | 适用场景 |
+| --- | --- | --- |
+| Markdown | `markdown` | Markdown 语法示例 |
+| CSS | `css` | 样式代码 |
+| YAML | `yaml` | 配置文件 |
+| Python | `python` | Python 脚本 |
+| JavaScript | `javascript` / `js` | JS 代码 |
+| Bash / Shell | `bash` / `sh` | 命令行脚本 |
+| PowerShell | `powershell` | PowerShell 脚本 |
+| JSON | `json` | JSON 数据 |
+| HTML | `html` | HTML 代码 |
+| C# | `csharp` / `cs` | C# 代码 |
+| Lua | `lua` | Lua 脚本 |
+
+> **提示：** 如果不加语言标识，代码块会显示为普通文本，没有语法高亮和行号复制功能。
+
 ## 分隔线
 
 使用三个短横线 `---` 来创建分隔线，常用于分隔不同章节的内容。
