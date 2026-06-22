@@ -31,4 +31,4 @@
 
 欢迎通过 GitHub 提交 Issue 或 Pull Request 来完善本Wiki。
 
-[GitHub 仓库](https://github.com/oiclyd/bg3-mod-wiki)
+[GitHub 仓库](https://github.com/oiclyd/bg3-mod-wiki) | [Wiki 写法说明](wiki-guide.md)
