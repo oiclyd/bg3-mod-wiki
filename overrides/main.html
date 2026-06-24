@@ -16,3 +16,47 @@
   </script>
   {{ super() }}
 {% endblock %}
+
+{% block scripts %}
+  {{ super() }}
+  <script>
+    // 提示框标签汉化：无自定义标题时隐藏标签文字，有自定义标题时翻译为中文
+    document.addEventListener("DOMContentLoaded", function() {
+      // 无自定义标题的提示框：隐藏整个标题栏
+      document.querySelectorAll(".md-typeset .admonition > .admonition-title").forEach(function(el) {
+        // MkDocs Material 9.x 生成的默认标题只有英文单词（如 "Tip", "Danger"）
+        // 有自定义标题的会包含中文或其他内容
+        var text = el.textContent.trim();
+        var defaultTitles = ["Tip", "Note", "Warning", "Danger", "Info", "Success", "Failure", "Bug", "Abstract", "Question", "Example", "Quote", "Cite"];
+        if (defaultTitles.indexOf(text) !== -1) {
+          el.style.display = "none";
+        }
+      });
+      // 有自定义标题的提示框：翻译英文类型名为中文
+      var titleMap = {
+        "Tip": "提示",
+        "Note": "备注",
+        "Warning": "警告",
+        "Danger": "危险",
+        "Info": "信息",
+        "Success": "成功",
+        "Failure": "失败",
+        "Bug": "已知问题",
+        "Abstract": "摘要",
+        "Question": "问题",
+        "Example": "示例",
+        "Quote": "引用",
+        "Cite": "引用"
+      };
+      document.querySelectorAll(".md-typeset .admonition > .admonition-title").forEach(function(el) {
+        var text = el.textContent.trim();
+        // 如果标题是 "Tip: 结论" 这种格式，替换英文部分
+        Object.keys(titleMap).forEach(function(en) {
+          if (text === en + ":") {
+            el.textContent = titleMap[en] + ":";
+          }
+        });
+      });
+    });
+  </script>
+{% endblock %}
