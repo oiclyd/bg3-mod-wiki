@@ -35,3 +35,108 @@
 欢迎通过 GitHub 提交 Issue 或 Pull Request 来完善本Wiki。
 
 [GitHub 仓库](https://github.com/oiclyd/bg3-mod-wiki) | [Wiki 写法说明](wiki-guide.md)
+
+## 关于 Script Extender（SE）
+
+### 为什么要装SE？
+
+SE（Script Extender）是大量Mod的底层依赖，本质是一个脚本扩展DLL（`DWrite.dll`）。
+
+!!! tip "核心特性"
+    - **成就解锁**：使用Mod也能正常获得Steam成就
+    - **自动更新**：保持与游戏版本的兼容性
+
+### 故障速查表
+
+| 现象 | 直接原因 | 解决办法 |
+|------|----------|----------|
+| Mod 不生效 / 管理器提示 | SE 未加载 | 检查安装路径 |
+| 错误代码 / 一直读条 | SE 初始化或更新失败 | 挂梯子（加速器） |
+| 未知问题（多见于学习版） | SE 与游戏版本不匹配 | 更新游戏或回退SE版本 |
+
+### 排查流程
+
+!!! tip "Step 1：确认游戏版本"
+    Steam 库 → 右键 BG3 → 属性 → 游戏版本  
+    **要求：Patch 8+**
+
+!!! tip "Step 2：检查 SE 安装"
+    正确路径：`Steam\steamapps\common\Baldurs Gate 3\bin\DWrite.dll`
+
+!!! tip "Step 3：清缓存"
+    关闭游戏 → 删除：`%LocalAppData%\BG3ScriptExtender\ScriptExtender`  
+    重启游戏
+
+!!! tip "Step 4：检查杀毒软件"
+    将 `bin` 目录加入白名单，或临时关闭 Defender
+
+!!! tip "Step 5：版本锁定"
+    打开 BG3MM → `Ctrl+P` → Updater → Select Version 选择版本 → `Ctrl+S`
+
+### 特殊问题
+
+!!! warning "Intel 13/14 代 CPU 注意"
+    近期有群友反馈只能使用 V29 及以下版本，升级 SE 则无法启动游戏。
+
+    **解决办法：** 更新主板 BIOS → 重置 BIOS
+
+    **可能根因：** Intel 13/14 代 CPU 电压不稳定缺陷。SE 的 DLL 注入需要执行底层内存操作，恰好触发该缺陷。
+
+[SE GitHub 原址](https://github.com/Norbyte/bg3se)
+
+## 关于 BG3ModManager
+
+### 为什么要用BG3MM？
+
+BG3ModManager（BG3MM）是专为博德之门3设计的Mod管理器，相比其他管理器有不可替代的优势。
+
+### 管理器对比
+
+| 功能 | BG3MM | MO2 / Vortex | 官方内置 |
+|------|:-----:|:------------:|:--------:|
+| SE 版本锁定 | ✅ | ❌ | ❌ |
+| SE 日志 / 控制台 | ✅ | ❌ | ❌ |
+| Mod 排序 | ✅（拖拽） | ✅ | ❌ |
+| 排序导出 / 导入 | ✅ | ⚠️ 需额外操作 | ❌ |
+| Order 配置档 | ✅ | ✅ | ❌ |
+| 冲突标记 | ✅ | ✅ | ❌ |
+
+!!! danger "关键差异：SE 生态控制权"
+    BG3MM 是**唯一**提供 SE 版本锁定、日志查看、状态检测的管理器。  
+    SE 是 BG3 Mod 的核心基础设施，自动更新常导致兼容性问题，此功能**不可替代**。
+
+### 核心功能
+
+#### 1. SE 控制面板
+
+- **控制台**：一键打开 SE 控制台
+- **状态检测**：启动前检查 SE 安装
+- **版本锁定**：禁用自动更新，固定到 V29 等
+
+!!! tip "版本锁定操作"
+    打开 BG3MM → `Ctrl+P` → Updater → Select Version 选择版本 → `Ctrl+S`
+
+#### 2. Load Order 管理
+
+- **拖拽排序**：上下拖动调整优先级
+- **冲突标记**：红色 = 可能覆盖冲突
+- **Save Order**：生成 `loadorder.json`（分享 / 备份）
+- **Export**：载入他人排序配置
+
+!!! warning "排序规则"
+    **下覆盖上**，排后面的 Mod 优先级更高。
+
+#### 3. Order 配置档
+
+- **每个 Order 独立**：Mod 列表 + 排序互不影响
+- **一键切换**：不同周目 / 联机 / 测试环境快速切换
+- **存档隔离**：切换不污染其他环境
+
+### 常见误区
+
+| 误区 | 事实 |
+|------|------|
+| "官方管理器够用" | 无排序功能，Mod 按安装时间加载，冲突无法排查 |
+| "MO2 更专业，BG3 也能用" | MO2 的 VFS 与 BG3 Pak 系统兼容性差，且无 SE 支持 |
+
+[BG3MM GitHub 原址](https://github.com/LaughingLeader/BG3ModManager)
