@@ -1,0 +1,1843 @@
+
+<!doctype html>
+<html lang="zh" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+        <link rel="canonical" href="https://oiclyd.github.io/bg3-mod-wiki/ch9-bloodtrail/">
+      
+      
+        <link rel="prev" href="../ch10-quest/">
+      
+      
+        <link rel="next" href="../ch9-summon/">
+      
+      
+        
+      
+      
+      <link rel="icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.6">
+    
+    
+      
+        <title>亡灵之路（血径） - 夜独整合包 Wiki</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.484c7ddc.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noto+Sans+SC:300,300i,400,400i,700,700i%7CJetBrains+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Noto Sans SC";--md-code-font:"JetBrains Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  <script>
+    // 强制默认使用深色模式
+    if (!localStorage.getItem("__palette")) {
+      localStorage.setItem("__palette", JSON.stringify({
+        color: {
+          media: "(prefers-color-scheme: dark)",
+          scheme: "slate",
+          primary: "amber",
+          accent: "amber"
+        }
+      }));
+    }
+  </script>
+  
+
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="slate" data-md-color-primary="amber" data-md-color-accent="amber">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#_1" class="md-skip">
+          跳转至
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="页眉">
+    <a href=".." title="夜独整合包 Wiki" class="md-header__button md-logo" aria-label="夜独整合包 Wiki" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            夜独整合包 Wiki
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              亡灵之路（血径）
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="amber" data-md-color-accent="amber"  aria-hidden="true"  type="radio" name="__palette" id="__palette_0">
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="搜索" placeholder="搜索" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="查找">
+        
+        <button type="reset" class="md-search__icon md-icon" title="清空当前内容" aria-label="清空当前内容" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            正在初始化搜索引擎
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="导航栏" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="夜独整合包 Wiki" class="md-nav__button md-logo" aria-label="夜独整合包 Wiki" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    夜独整合包 Wiki
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    首页
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ch1-start/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    新手入门
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ch2-mod/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    使用指南
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ch3-faq/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    常见问题
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ch4-class/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    职业攻略
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ch6-race/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    种族攻略
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ch7-divinity/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    专长攻略
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ch8-equip/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    装备攻略
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_9" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_9" id="__nav_9_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    任务攻略
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_9_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_9">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    任务攻略
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ch10-quest/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    亡灵之路
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    亡灵之路（血径）
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    亡灵之路（血径）
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="目录">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      目录
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        更新摘要
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        成为吸血鬼
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        饥渴
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_7" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        梦魇与梦境
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_8" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        吸血鬼等级
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_10" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        荣耀滋味
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_12" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        血契
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_17" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        长夜传奇
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ch9-summon/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    进化攻略
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ch11-difficulty/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    难度攻略
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ch12-alchemy/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    炼金攻略
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ch10-mod/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    自选模组
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="目录">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      目录
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        更新摘要
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        成为吸血鬼
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        饥渴
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_7" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        梦魇与梦境
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_8" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        吸血鬼等级
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_10" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        荣耀滋味
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_12" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        血契
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_17" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        长夜传奇
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="_1">亡灵之路（血径）<a class="headerlink" href="#_1" title="Permanent link">&para;</a></h1>
+<h2 id="_2">更新摘要<a class="headerlink" href="#_2" title="Permanent link">&para;</a></h2>
+<ul>
+<li>吸血鬼化现在可以更早实现，与不死化同时进行，通过统一的仪式。</li>
+<li>吸血鬼啃咬不再对盟友造成伤害。</li>
+<li>暗影束缚不再增加吸血鬼飞行距离，也不再提供高等黑暗视觉。</li>
+<li>飞升吸血鬼的效果现在不再因是否安装了"力量渴求"而有所不同。</li>
+<li>"有趣起源"的等级系统不再用于真正的吸血鬼，只有阿斯代伦可以作为非亡灵之路角色经历那些等级。</li>
+<li>夜之锋刃已被重做，现在成为帷幕行者的特性。</li>
+<li>魅惑已被重做，现在成为夜主的能力。</li>
+<li>怨恨之味已被移除。</li>
+<li>飞升阿斯代伦（作为非亡灵之路角色）获得亡灵与物理抗性、魅惑人类和利爪。</li>
+<li>所有吸血鬼特性现在在角色面板中整齐排列。</li>
+</ul>
+<h2 id="_3">成为吸血鬼<a class="headerlink" href="#_3" title="Permanent link">&para;</a></h2>
+<p>成为吸血鬼现在可以更早实现。</p>
+<p>这条道路受到引导，但隐晦不明。你无需查阅指南来了解该做什么，只需留意并阅读游戏中的提示。</p>
+<p>如果这些提示不够充分，以下是步骤：</p>
+<ol>
+<li>阅读《塞尔死灵法术典籍》（获得"禁忌知识"被动）</li>
+<li>使用法术"不死之路 - 冥想"（获得"禁忌知识"之后自动解锁）</li>
+<li>使用鬼婆的药水"踌躇意志"和"失踪宠物"，直到你成功。注意"失踪宠物"要后喝</li>
+<li>在夜间（营地），使用鬼婆的药水"腹中蝴蝶"和"狂乱之吻"，你会受到伤害，让这次伤害将你击倒</li>
+<li>你应该失败死亡豁免检定，等待直到你死亡</li>
+<li>你现在将获得临界坏死，持续10回合，等待它结束，然后你会自动复活，你现在是亡灵，并且应该拥有持续100回合的饥饿状态</li>
+<li>饮用"母亲的憎恶"</li>
+<li>使用它的撕咬攻击一个能流血的活体生物，这应该能满足饥饿，再次触发提示</li>
+<li>长休</li>
+<li>你现在是一名吸血鬼了</li>
+</ol>
+<div class="admonition tip">
+<p class="admonition-title">Tip</p>
+<p>整个仪式过程需要在特定时间和条件下完成，请仔细阅读游戏中的提示文本。</p>
+</div>
+<h2 id="_4">饥渴<a class="headerlink" href="#_4" title="Permanent link">&para;</a></h2>
+<p>作为吸血鬼，饥渴每分钟在战斗外累积。</p>
+<p>在战斗中，累积速度为每回合1点。</p>
+<p>以有效目标为食将饥渴重置为0，并赋予等同于被平息饥渴的进程。</p>
+<p>同时赋予"满足"（前身为"快乐"）直到长休，这使大多数掷骰获得+1。</p>
+<p>对有效目标的致命啃咬额外赋予等同于目标等级的进程。</p>
+<p>有效目标为类人生物，不包括盖尔和卡拉克（直到她可以被触碰）。</p>
+<p>以有效但已死亡的目标为食只能平息一半的饥渴，且不赋予进程。</p>
+<p>以有效目标为食会对其施加"无血"状态直到长休。</p>
+<p>以无血目标为食不会平息饥渴，也不赋予进程。</p>
+<p>无血尸体永久保持无血状态。</p>
+<h3 id="_5">饥渴惩罚<a class="headerlink" href="#_5" title="Permanent link">&para;</a></h3>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>饥渴值过高会带来严重的负面影响，请及时进食。</p>
+</div>
+<table>
+<thead>
+<tr>
+<th>饥渴值</th>
+<th>效果</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>60+（1小时）</td>
+<td>所有技能承受-1</td>
+</tr>
+<tr>
+<td>120+</td>
+<td>上述效果达到-2，攻击掷骰、伤害掷骰、AC、DC和豁免检定降低2</td>
+</tr>
+<tr>
+<td>180+</td>
+<td>上述效果达到-4，吸血鬼必须每回合进行一次DC 16的体质豁免检定，否则陷入疯狂</td>
+</tr>
+<tr>
+<td>240+</td>
+<td>上述效果达到-6，吸血鬼必须每回合进行一次DC 16的体质豁免检定，否则陷入昏迷</td>
+</tr>
+<tr>
+<td>360</td>
+<td>饥渴上限</td>
+</tr>
+</tbody>
+</table>
+<h3 id="_6">诱惑<a class="headerlink" href="#_6" title="Permanent link">&para;</a></h3>
+<p>战斗中，潜在的进食目标在吸血鬼附近死亡会引发诱惑，基于它们之间的距离。</p>
+<p>从12米处的+1，到3米及更近处的+10。</p>
+<p>这受目标等级上限限制。</p>
+<p>如果吸血鬼是击杀者，获得量翻倍。</p>
+<p>如果它们处于满足状态，获得量减半。</p>
+<p>诱惑立即赋予等同的饥渴。</p>
+<p>长休时，如果未满足，诱惑累积以50%的转化率再次增加饥渴，但也会触发一场梦魇，绕过贵族茎免疫。</p>
+<p>诱惑在长休后清除。</p>
+<h2 id="_7">梦魇与梦境<a class="headerlink" href="#_7" title="Permanent link">&para;</a></h2>
+<p>梦魇和梦境现在伴随"萦绕之夜"持续30分钟（300回合），在此期间再次休息不会移除它们，也不会掷骰获得新的。</p>
+<p>在萦绕之夜激活时休息会重置其持续时间，并维持当前的梦境或梦魇。</p>
+<p>在萦绕之夜剩余5分钟（50回合）或更少时休息会重置并翻倍其持续时间，最多3次（4小时）。</p>
+<p>当萦绕之夜结束时，休息会移除激活的梦境或梦魇，并可能掷骰获得新的。</p>
+<p>由诱惑引发的强制梦魇可以替换激活的梦境或梦魇，并遵循关于萦绕之夜的相同规则。</p>
+<p>苦涩慰藉是吸血鬼每天可以使用两次的动作，用以部分抵御萦绕之夜，将其原始持续时间减少三分之一。</p>
+<p>作为交换，它随机降低一项属性值1点，可以通过在满足状态下休息来每次恢复1点。</p>
+<h2 id="_8">吸血鬼等级<a class="headerlink" href="#_8" title="Permanent link">&para;</a></h2>
+<h3 id="1">等级1 — 吸血鬼新生<a class="headerlink" href="#1" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong>饥渴</strong>：参见专门章节</li>
+<li><strong>阳光弱点</strong>：在阳光下时攻击掷骰和豁免检定处于劣势</li>
+<li><strong>流水弱点</strong>：站在水中的时间越长，承受的酸性伤害越高</li>
+<li><strong>下一等级所需进程</strong>：100</li>
+</ul>
+<h3 id="2">等级2 — 吸血鬼雏鸟<a class="headerlink" href="#2" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong>黑暗视觉</strong>（12米）</li>
+<li><strong>贪婪啃咬</strong>：每15层饥渴，你的啃咬额外造成+1伤害，攻击掷骰获得+1</li>
+<li><strong>荣耀滋味</strong>：以某个种族为食一定次数会解锁该种族能力的弱化或扭曲版本。参见专门章节</li>
+<li><strong>下一等级所需进程</strong>：200（总计300）</li>
+</ul>
+<h3 id="3">等级3 — 成年吸血鬼<a class="headerlink" href="#3" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong>移动速度+1</strong>，跳跃距离+1</li>
+<li><strong>吸血鬼再生</strong>：不在阳光下且未 recently 受到光耀伤害时，每回合恢复1 HP（可切换）</li>
+<li>以此方式恢复的每点HP增加等量饥渴</li>
+<li>在战斗中效率减半（向上取整）</li>
+<li>需要处于满足状态</li>
+<li><strong>下一等级所需进程</strong>：300（总计600）</li>
+</ul>
+<h3 id="4">等级4 — 吸血鬼新贵<a class="headerlink" href="#4" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong>尖牙灵巧</strong>：吸血鬼啃咬现在使用力量/敏捷中较高者</li>
+<li>每次啃咬获得一个新的变体，即使用你的施法能力调整值的法术攻击</li>
+<li><strong>利爪攻击</strong></li>
+<li><strong>血契</strong>：参见专门章节</li>
+<li><strong>下一等级所需进程</strong>：400（总计1000），阅读"黎明的阴影：吸血鬼传说论文"，并选择一个血契</li>
+</ul>
+<h3 id="5">等级5 — 吸血鬼骑士 / 女爵<a class="headerlink" href="#5" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong>高等黑暗视觉</strong>（24米）</li>
+<li><strong>移动速度+1米</strong>，跳跃距离+1米（总计2米）</li>
+<li><strong>吸血鬼飞行</strong>（6米）</li>
+<li><strong>再生 +1HP/回合</strong>（总计2）</li>
+<li><strong>坠落伤害 -50%</strong></li>
+<li><strong>猩红宴饮</strong>：踏入血液时，吸收它以治疗自己1d4（可切换）</li>
+<li><strong>下一等级所需进程</strong>：500（总计1500）</li>
+</ul>
+<h3 id="6">等级6 — 吸血鬼男爵 / 女男爵<a class="headerlink" href="#6" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong>驯服饥渴</strong>：饥渴的负面效果每种类型推迟1小时，参见饥渴章节</li>
+<li>低饥渴时失控几率降低（DC 16 -&gt; 14）</li>
+<li>可以随意变形为蝙蝠</li>
+<li><strong>午夜之吻</strong>：吸血鬼啃咬根据目标已损失生命值造成额外伤害，并可以在低于特定阈值时处决</li>
+<li>额外伤害为熟练加值每25%已损失HP</li>
+<li>处决阈值为等级 + 等级（所以最高32）</li>
+<li><strong>下一等级所需进程</strong>：600（总计2100）</li>
+</ul>
+<h3 id="7">等级7 — 吸血鬼伯爵 / 女伯爵<a class="headerlink" href="#7" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong>再生 +1HP/回合</strong>（总计3）</li>
+<li>可以随意变形为狼</li>
+<li>对抗魅惑和恐惧具有优势</li>
+<li><strong>吸血</strong>：以吸血鬼啃咬击杀类人生物获得+1来自目标最高属性值的属性值（可切换）</li>
+<li>如果平局，它偏向你的最高属性值中平局的值</li>
+<li>如果仍然平局，它使用从左到右的角色面板顺序</li>
+<li>持续直到长休或被替换</li>
+<li><strong>下一等级所需进程</strong>：700（总计2800）</li>
+</ul>
+<h3 id="8">等级8 — 吸血鬼公爵 / 女公爵<a class="headerlink" href="#8" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong>暮光之眼</strong>（等同于魔鬼视觉）</li>
+<li><strong>移动速度+1米</strong>，跳跃距离+1米（总计3米）</li>
+<li><strong>吸血鬼飞行+3米</strong>（总计9米）</li>
+<li>可以随意变形为迷雾</li>
+<li><strong>下一等级所需进程</strong>：800（总计3600）</li>
+</ul>
+<h3 id="9">等级9 — 吸血鬼领主 / 女领主<a class="headerlink" href="#9" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong>再生 +2HP/回合</strong>（总计5）</li>
+<li><strong>漫长守夜</strong>：饥渴的负面效果每种类型再推迟2小时（参见饥渴章节）</li>
+<li>低饥渴时失控几率进一步降低（DC 14 -&gt; 10）</li>
+<li>不会因饥渴而昏迷</li>
+<li><strong>魅惑、恐惧和恶心（臭云术）免疫</strong></li>
+<li><strong>下一等级所需进程</strong>：900（总计4500）</li>
+</ul>
+<h3 id="10">等级10 — 吸血鬼君王 / 女王<a class="headerlink" href="#10" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong>坠落伤害 -100%</strong></li>
+<li><strong>长夜传奇</strong>：选择一个称号，参见专门章节</li>
+<li><strong>下一等级所需进程</strong>：1000（总计5500）+ 飞升吸血鬼</li>
+</ul>
+<h4 id="_9">飞升吸血鬼<a class="headerlink" href="#_9" title="Permanent link">&para;</a></h4>
+<ul>
+<li><strong>传奇抗性</strong>，3次充能</li>
+<li><strong>吸血鬼虫群</strong>：大型柱状攻击，造成2d12穿刺伤害</li>
+<li>豁免失败时，推开敌人并对他们施加"虫群"状态3回合</li>
+<li><strong>虫群</strong>：减速50%，对穿刺易伤，每回合承受1d8穿刺，此伤害治疗吸血鬼</li>
+<li><strong>翼之逃脱</strong>：被击中低于30% HP时变形为蝙蝠（可切换）</li>
+<li>它有1 HP，+5AC且不触发借机攻击</li>
+<li><strong>飞升啃咬</strong>：造成6d6亡灵伤害的啃咬攻击</li>
+<li>飞升时赋予7000进程</li>
+</ul>
+<h3 id="11">等级11 — 吸血鬼古裔<a class="headerlink" href="#11" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong>移动速度+3米</strong>，跳跃距离+3米（总计6米）</li>
+<li><strong>吸血鬼飞行+9米</strong>（总计18米）</li>
+<li><strong>再生 +5HP/回合</strong>（总计10）</li>
+<li><strong>下一等级所需进程</strong>：10000（总计15500）</li>
+</ul>
+<h3 id="12">等级12 — 飞升者<a class="headerlink" href="#12" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong>所有属性值+1</strong></li>
+<li><strong>长夜传奇</strong>：选择第二个称号，参见专门章节</li>
+</ul>
+<h2 id="_10">荣耀滋味<a class="headerlink" href="#_10" title="Permanent link">&para;</a></h2>
+<p>在等级2解锁，荣耀滋味是血径的标志性特性。</p>
+<p>其要点是反复以任何给定类人生物种族为食将解锁与该种族相关的独特特性，通常是一个种族特性的弱化或扭曲版本，或从中衍生出的东西。</p>
+<p>一次只能激活一个这样的种族特性。</p>
+<p>你可以通过再次以期望的种族为食，在切换激活时，从一个已解锁的特性更改为另一个。</p>
+<p>小心不要用完期望种族的进食目标。</p>
+<p>为此，和平进食（潜行时或对睡眠目标或同伴）可能是推荐的。</p>
+<p>此外，通过荣耀滋味解锁的每个种族特性将饥渴到进程的转化率提高5%。</p>
+<p>为此特性，以尸体为食提供部分进度。</p>
+<p>进度不可见，但你会在每个种族33%和66%进度时收到消息。</p>
+<p>如果你想要更多细节，查看控制台输出（非游戏必需）。</p>
+<h3 id="_11">种族特性列表<a class="headerlink" href="#_11" title="Permanent link">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th>种族</th>
+<th>特性名称</th>
+<th>效果</th>
+<th>稀有度</th>
+<th>所需进食次数（NPC总数）</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>人类</td>
+<td>借来的全能</td>
+<td>对你不熟练的所有技能获得+1</td>
+<td>极其常见</td>
+<td>24（共741）</td>
+</tr>
+<tr>
+<td>精灵</td>
+<td>易形守夜</td>
+<td>长休时，25%的诱惑转化为进程</td>
+<td>不常见</td>
+<td>12（共112）</td>
+</tr>
+<tr>
+<td>矮人</td>
+<td>铁石心肠</td>
+<td>每当你啃咬敌人时，有5%几率将其石化1回合（体质豁免，DC 1）</td>
+<td>常见</td>
+<td>15（共194）</td>
+</tr>
+<tr>
+<td>半身人</td>
+<td>嘲弄命运</td>
+<td>每当一次带有劣势的攻击未命中你，你对攻击者的下一次攻击将成为重击</td>
+<td>不常见</td>
+<td>12（共91）</td>
+</tr>
+<tr>
+<td>侏儒</td>
+<td>窃取才智</td>
+<td>对智力和感知的属性检定及其相关的技能检定获得+1</td>
+<td>不常见</td>
+<td>12（共108）</td>
+</tr>
+<tr>
+<td>提夫林</td>
+<td>地狱之吻</td>
+<td>你的啃咬额外造成1d4火焰伤害</td>
+<td>不常见</td>
+<td>12（共99）</td>
+</tr>
+<tr>
+<td>龙裔</td>
+<td>力量之颚</td>
+<td>使用吸血鬼啃咬触发重击所需的数值降低1，触发时额外增加一颗伤害骰</td>
+<td>极其稀有</td>
+<td>3（共25）</td>
+</tr>
+<tr>
+<td>卓尔</td>
+<td>暗域</td>
+<td>在微光或黑暗中，如果熟练察觉，则隐匿获得+1；如果熟练隐匿，则察觉获得+1</td>
+<td>非常稀有</td>
+<td>6（共35）</td>
+</tr>
+<tr>
+<td>半兽人</td>
+<td>原始本能</td>
+<td>致命啃咬赋予怒火2回合</td>
+<td>非常稀有</td>
+<td>6（共40）</td>
+</tr>
+<tr>
+<td>半精灵</td>
+<td>窃取优雅</td>
+<td>对处于精神影响效果下的目标，你的攻击掷骰和DC获得+1</td>
+<td>稀有</td>
+<td>9（共72）</td>
+</tr>
+<tr>
+<td>吉斯洋基人</td>
+<td>星界共鸣</td>
+<td>致命啃咬赋予模糊1回合（可切换）</td>
+<td>不常见</td>
+<td>12（共105）</td>
+</tr>
+<tr>
+<td>夺心魔</td>
+<td>掠食智力</td>
+<td>以智力更高的生物为食时，差值作为进程获得；以智力较低的生物为食时，额外造成等同于差值的心灵伤害</td>
+<td>极其稀有</td>
+<td>3（共25）</td>
+</tr>
+<tr>
+<td>地精</td>
+<td>大猎物</td>
+<td>以体型更大的生物为食可获得双倍的进程</td>
+<td>不常见</td>
+<td>12（共105）</td>
+</tr>
+<tr>
+<td>大地精</td>
+<td>好战者</td>
+<td>每回合一次，以类人生物为食后，你的下一次攻击额外造成1d6伤害</td>
+<td>极其稀有</td>
+<td>3（共6）</td>
+</tr>
+<tr>
+<td>食人魔</td>
+<td>野蛮</td>
+<td>徒手和武器攻击额外造成1伤害</td>
+<td>极其稀有</td>
+<td>3（共9）</td>
+</tr>
+<tr>
+<td>熊地精</td>
+<td>凶残</td>
+<td>进行啃咬攻击时，你掷伤害骰两次并使用较高结果</td>
+<td>极其稀有</td>
+<td>3（共10）</td>
+</tr>
+<tr>
+<td>变形怪</td>
+<td>伏击者</td>
+<td>在伪装或变形状态下，脱离战斗发起攻击会解除变形，并使附近的敌人因震惊而失衡（智慧豁免，可切换）</td>
+<td>极其稀有</td>
+<td>3（共23）</td>
+</tr>
+</tbody>
+</table>
+<h2 id="_12">血契<a class="headerlink" href="#_12" title="Permanent link">&para;</a></h2>
+<p>血契是血径的核心特性。</p>
+<p>它们作为独立的类系统运作，独立于实际职业，如果充分拥抱，会深度影响游戏玩法。</p>
+<p>它们在等级4解锁，通过阅读书籍"黎明的阴影：吸血鬼传说论文"，提示你长休，然后提供介绍和这些血契的选择。</p>
+<div class="admonition danger">
+<p class="admonition-title">Danger</p>
+<p>该选择是最终的，一旦选定无法更改。</p>
+</div>
+<p>所有血契共享类似的进程路径，每个都有自己的资源，数量等于等级。</p>
+<p>等级5提供相关技能的熟练，而等级9提供专精。</p>
+<p>类似地，所有血契在等级6获得一个降低资源消耗的特性，在等级8获得一个增加资源获得的特性。</p>
+<h3 id="_13">血戮者<a class="headerlink" href="#_13" title="Permanent link">&para;</a></h3>
+<h4 id="4_1">等级4<a class="headerlink" href="#4_1" title="Permanent link">&para;</a></h4>
+<ul>
+<li>威吓检定具有优势</li>
+<li>获得<strong>血怒</strong>，类似于野蛮人狂暴</li>
+<li>资源为<strong>吸血鬼亢奋</strong></li>
+<li>在血怒外为0</li>
+<li>进入血怒时获得1点</li>
+<li>攻击时获得1点</li>
+<li>成功命中时获得1点</li>
+<li>每回合失去1点</li>
+<li>攻击未命中时失去3点</li>
+<li>如果在你回合未造成任何伤害则失去所有（也结束血怒）</li>
+<li><strong>血怒</strong>：每15%已损失HP获得+1攻击、伤害和伤害减免</li>
+<li>在激活回合，只有回合开始时的HP与上述相关，意味着你可以安全地治疗而不失去收益</li>
+<li>每场战斗第一次施放血怒免费，后续施放消耗 bonus action</li>
+<li>进入任何其他狂暴会被替换为血怒</li>
+</ul>
+<h4 id="5_1">等级5<a class="headerlink" href="#5_1" title="Permanent link">&para;</a></h4>
+<ul>
+<li>熟练于威吓、运动和生存</li>
+</ul>
+<h4 id="6_1">等级6<a class="headerlink" href="#6_1" title="Permanent link">&para;</a></h4>
+<ul>
+<li><strong>无畏冲锋</strong>：攻击未命中只消耗1点吸血鬼亢奋，回合结束未造成伤害时只移除所有但保留1点</li>
+<li><strong>野蛮饕餮</strong>：吸血鬼亢奋至少为4时，获得与已损失HP成比例的生命偷取</li>
+<li>每3%已损失HP获得1%生命偷取</li>
+<li>生存10以上时，比率翻倍至最高每3%已损失HP 2%生命偷取，生存20+时为1/1</li>
+<li>对非类人生物效率减半</li>
+</ul>
+<h4 id="7_1">等级7<a class="headerlink" href="#7_1" title="Permanent link">&para;</a></h4>
+<ul>
+<li><strong>狂暴刽子手</strong>：你的近战攻击可以使敌人流血</li>
+<li>此外，吸血鬼亢奋至少为6时，每15%目标已损失HP额外造成+1伤害</li>
+</ul>
+<h4 id="8_1">等级8<a class="headerlink" href="#8_1" title="Permanent link">&para;</a></h4>
+<ul>
+<li><strong>翱翔亢奋</strong>：进入血怒、攻击和命中额外获得1点吸血鬼亢奋</li>
+<li><strong>鲜血狩猎</strong>：对可以流血的生物造成致命一击时，你可以消耗4点吸血鬼亢奋进入吸血鬼嗜血</li>
+<li><strong>吸血鬼嗜血</strong>：赋予1个动作和5点临时HP用于该回合（类似于嗜血灵药，可叠加）</li>
+</ul>
+<h4 id="9_1">等级9<a class="headerlink" href="#9_1" title="Permanent link">&para;</a></h4>
+<ul>
+<li>专精于威吓、运动和生存</li>
+</ul>
+<h4 id="10_1">等级10<a class="headerlink" href="#10_1" title="Permanent link">&para;</a></h4>
+<ul>
+<li><strong>杀戮化身</strong>：在吸血鬼嗜血效果下，你额外造成+1d4武器和徒手伤害，在力量检定和豁免以及攻击掷骰上具有优势（但攻击对你也具有优势），不屈，且不能被安抚</li>
+</ul>
+<h4 id="12_1">等级12<a class="headerlink" href="#12_1" title="Permanent link">&para;</a></h4>
+<ul>
+<li><strong>挣脱束缚者</strong>：吸血鬼亢奋至少为8时，吸血鬼嗜血持续额外一回合</li>
+<li>在其效果下，攻击释放最多8道猩红弧光，在12米内目标之间连锁，造成1d4力场伤害并施加流血，或如果目标不能流血则造成2d4力场伤害</li>
+<li>猩红弧光受益于野蛮饕餮和狂暴刽子手</li>
+</ul>
+<h3 id="_14">帷幕行者<a class="headerlink" href="#_14" title="Permanent link">&para;</a></h3>
+<h4 id="4_2">等级4<a class="headerlink" href="#4_2" title="Permanent link">&para;</a></h4>
+<ul>
+<li>隐匿检定具有优势</li>
+<li>资源为<strong>暗影</strong></li>
+<li>在战斗外为最大值</li>
+<li>被非盟友击中时失去2点</li>
+<li>回合开始时既不隐藏、隐形也不遮蔽时失去2点</li>
+<li>被看见时失去2点，隐形时被揭露再失去2点</li>
+<li>回合开始时隐藏或隐形恢复1点</li>
+<li>隐藏或隐形状态下命中攻击恢复2点</li>
+<li>造成重击时恢复1点</li>
+<li><strong>穿越帷幕</strong>：可以在战斗中通过以2点暗影替代正常消耗来隐藏，并获得+3米移动速度（每回合一次的移动增益）（可切换）</li>
+</ul>
+<h4 id="5_2">等级5<a class="headerlink" href="#5_2" title="Permanent link">&para;</a></h4>
+<ul>
+<li>熟练于隐匿、巧手和体操</li>
+</ul>
+<h4 id="6_2">等级6<a class="headerlink" href="#6_2" title="Permanent link">&para;</a></h4>
+<ul>
+<li><strong>暮光凝滞</strong>：所有暗影损失减少1点，穿越帷幕消耗也减少1点</li>
+<li><strong>夜之帷幕</strong>：每2点暗影隐匿+1，每3点暗影AC和先攻+1</li>
+<li>在遮蔽下，你不会在豁免检定上掷出1，攻击不能对你重击</li>
+<li><strong>帷幕模糊</strong>：在遮蔽下，你可以反应消耗3点暗影对即将命中你的攻击施加劣势，或对即将命中你的法术豁免获得优势</li>
+</ul>
+<h4 id="7_2">等级7<a class="headerlink" href="#7_2" title="Permanent link">&para;</a></h4>
+<ul>
+<li><strong>帷幕尖牙</strong>：隐藏或隐形时，传送至目标并啃咬它而不打破隐蔽，消耗5点暗影</li>
+<li>不能重击</li>
+<li>命中啃咬恢复暗影</li>
+<li><strong>夜之锋刃</strong>：每4点暗影重击阈值+1</li>
+<li>在遮蔽下，你不会在攻击掷骰、能力和技能检定上掷出1</li>
+<li>此外，你不会被突袭或夹击</li>
+</ul>
+<h4 id="8_2">等级8<a class="headerlink" href="#8_2" title="Permanent link">&para;</a></h4>
+<ul>
+<li><strong>夜幕降临</strong>：所有暗影获得增加1点</li>
+<li><strong>虚空之夜</strong>：暗影至少为5时，穿越帷幕使你进入"帷幕遮蔽"状态2回合</li>
+<li><strong>帷幕遮蔽</strong>：类似于高等隐形</li>
+</ul>
+<h4 id="9_2">等级9<a class="headerlink" href="#9_2" title="Permanent link">&para;</a></h4>
+<ul>
+<li>专精于隐匿、巧手和体操</li>
+</ul>
+<h4 id="10_2">等级10<a class="headerlink" href="#10_2" title="Permanent link">&para;</a></h4>
+<ul>
+<li><strong>午夜幽魂</strong>：暗影至少为7时，获得一个额外的反应和 bonus action</li>
+<li>一旦触发，即使暗影降至7以下，这也持续到回合结束</li>
+</ul>
+<h4 id="12_2">等级12<a class="headerlink" href="#12_2" title="Permanent link">&para;</a></h4>
+<ul>
+<li><strong>无形者</strong>：暗影至少为9且处于隐形时，你无法被看见或揭露</li>
+</ul>
+<h3 id="_15">瘟疫编织者<a class="headerlink" href="#_15" title="Permanent link">&para;</a></h3>
+<h4 id="4_3">等级4<a class="headerlink" href="#4_3" title="Permanent link">&para;</a></h4>
+<ul>
+<li>对抗毒素具有优势，对毒素次级抗性，对酸具有抗性</li>
+<li>次级抗性不显示在角色面板中，与不死提供的常规抗性叠加</li>
+<li>资源为<strong>毒力</strong></li>
+<li>以法术命中敌人时获得1点</li>
+<li>每回合失去3点</li>
+<li>每3点毒力DC和法术攻击掷骰+1</li>
+<li><strong>播种瘟疫</strong>：成功以法术命中敌人施加疫咒1回合</li>
+<li><strong>疫咒</strong>：每剩余一回合，大多数掷骰-1</li>
+<li>被视为疾病、毒素和诅咒，并相应抵抗</li>
+<li>最大持续时间为3</li>
+<li><strong>进化</strong>：播种瘟疫基于你的技能获得收益</li>
+<li><strong>医药 7 — 瘟疫</strong>：疫咒变为剧毒，造成1d4毒素伤害 +1每剩余一回合，持续时间至少3时留下一道基础毒素痕迹</li>
+<li><strong>自然 9 — 虫群</strong>：疫咒变为感染，造成1d4穿刺 +1每剩余一回合<ul>
+<li>它从濒死目标体内爆裂并传播剩余持续时间的一半给3.5米内的敌人（可切换）</li>
+<li>爆裂消耗3点毒力</li>
+</ul>
+</li>
+<li><strong>奥术 11 — 亵渎</strong>：疫咒变为厄运，造成1d4亡灵 +1每剩余一回合并每剩余一回合降低AC 1</li>
+<li>进化可以合并</li>
+</ul>
+<h4 id="5_3">等级5<a class="headerlink" href="#5_3" title="Permanent link">&para;</a></h4>
+<ul>
+<li>熟练于医药、自然和奥术</li>
+</ul>
+<h4 id="6_3">等级6<a class="headerlink" href="#6_3" title="Permanent link">&para;</a></h4>
+<ul>
+<li><strong>潜伏孵化</strong>：毒力损失减少1点</li>
+<li><strong>腐蚀适应</strong>：对疾病、毒素或诅咒免疫的目标改为受到酸蚀</li>
+<li><strong>酸蚀</strong>：造成1d4酸性伤害 + 1每此状态剩余一回合</li>
+<li>进化获得新效果：<ul>
+<li><strong>医药 7 — 瘟疫</strong>：酸蚀额外造成+1d4酸性伤害 + 1每剩余一回合，持续时间至少3时留下一道酸液痕迹</li>
+<li><strong>自然 9 — 虫群</strong>：酸蚀额外造成+1d4酸性伤害 + 1每剩余一回合</li>
+<li>它从濒死目标体内爆裂并传播剩余持续时间的一半给3米内的敌人</li>
+<li><strong>奥术 11 — 亵渎</strong>：酸蚀额外造成+1d4酸性伤害 + 1每剩余一回合并每剩余一回合降低AC 1</li>
+</ul>
+</li>
+</ul>
+<h4 id="7_3">等级7<a class="headerlink" href="#7_3" title="Permanent link">&para;</a></h4>
+<ul>
+<li><strong>振奋污秽</strong>：啃咬被疫咒侵染的目标使你忽略该伤害类型的抗性，并在2回合内额外造成1点该类型或那些类型的伤害</li>
+</ul>
+<h4 id="8_3">等级8<a class="headerlink" href="#8_3" title="Permanent link">&para;</a></h4>
+<ul>
+<li><strong>汹涌疫情</strong>：毒力获得增加1点</li>
+<li>疫咒和酸蚀的最大持续时间现为5</li>
+<li>新的进化可用：</li>
+<li><strong>医药 13 — 恶臭</strong>：疫咒持续时间至少5时留下一道毒气痕迹</li>
+<li>酸蚀持续时间至少5时留下一道腐蚀盐水痕迹而非酸液</li>
+<li><strong>自然 15 — 蜕皮</strong>：疫咒和酸蚀的爆裂范围增加到7米，传播的持续时间为完整</li>
+<li><strong>奥术 17 — 万能溶剂</strong>：如果疫咒会超过最大持续时间，超出的回合改为施加酸蚀</li>
+<li>持续时间至少5时，酸蚀使目标对酸性伤害易伤</li>
+</ul>
+<h4 id="9_3">等级9<a class="headerlink" href="#9_3" title="Permanent link">&para;</a></h4>
+<ul>
+<li>专精于医药、自然和奥术</li>
+</ul>
+<h4 id="10_3">等级10<a class="headerlink" href="#10_3" title="Permanent link">&para;</a></h4>
+<ul>
+<li><strong>无尽折磨</strong>：疫咒或酸蚀持续时间至少5时，目标可能被减速直到瘟疫编织者的下一回合</li>
+<li><strong>脓液狂欢</strong>：疫咒和酸蚀施加速率翻倍</li>
+</ul>
+<h4 id="12_3">等级12<a class="headerlink" href="#12_3" title="Permanent link">&para;</a></h4>
+<ul>
+<li><strong>腐化者</strong>：毒力至少为7时，疫咒和酸蚀不再衰减，它们蓬勃发展，每回合持续时间增加而非减少</li>
+<li>它们的最大持续时间现为7</li>
+</ul>
+<h3 id="_16">夜主<a class="headerlink" href="#_16" title="Permanent link">&para;</a></h3>
+<h4 id="4_4">等级4<a class="headerlink" href="#4_4" title="Permanent link">&para;</a></h4>
+<ul>
+<li>魅力检定具有优势</li>
+<li>资源为<strong>统御</strong></li>
+<li>它被投入法术中，当这些法术结束时恢复</li>
+<li><strong>暗影仆从</strong>：你可以召唤老鼠（2）和蝙蝠（3）来服从你的命令</li>
+<li>它们消耗统御来召唤，并在被解散或死亡时返还统御</li>
+<li>暗影仆从自主行动</li>
+<li><strong>仆从集群</strong>：每点驯兽，你的暗影仆从获得1 HP，每7点，它们额外造成1伤害并获得1米移动</li>
+<li><strong>魅惑啃咬</strong>：你的啃咬可以魅惑敌人1回合</li>
+<li>以此方式魅惑的敌人在2回合内不能再被魅惑</li>
+</ul>
+<h4 id="5_4">等级5<a class="headerlink" href="#5_4" title="Permanent link">&para;</a></h4>
+<ul>
+<li>熟练于驯兽、说服和宗教</li>
+</ul>
+<h4 id="6_4">等级6<a class="headerlink" href="#6_4" title="Permanent link">&para;</a></h4>
+<ul>
+<li>狼加入你的暗影仆从</li>
+<li><strong>服从</strong>：暗影仆从的统御消耗减少1点</li>
+<li><strong>聚合</strong>：你的暗影仆从拥有集群战术</li>
+<li><strong>奴役</strong>：征服一个同族不死生物并使其成为你的奴仆</li>
+<li>非盟友奴仆是不完美的和叛逆的</li>
+<li>如果对盟友失败，一场意志之争开始</li>
+<li>你可以随时释放他们</li>
+<li>一次只能有一个奴仆</li>
+<li>范围为3米</li>
+<li><strong>不完美</strong>：奴仆不遵循命令（AI控制）</li>
+<li><strong>叛逆</strong>：奴仆在受到伤害时可能挣脱（智慧豁免，劣势）</li>
+<li><strong>意志之争</strong>：盟友可以宣誓效忠，成为领主并称你为他们的血亲<ul>
+<li>你可以拥有多个领主（如果你找到候选者，阿斯代伦被列入可用名单）</li>
+<li><strong>残酷效忠</strong>（宣誓效忠成为领主）是不可逆的</li>
+<li><strong>血亲</strong>：你每有一个领主获得2%最大生命值</li>
+<li>奴仆和领主被视为暗影仆从，并可能受益于仆从集群、聚合和夜之统治</li>
+<li>奴役一个领主任命他们为你的管家，为你提供侍奉（忽略0%几率，实际上是100%）</li>
+<li><strong>侍奉</strong>：+1统御，+1伤害减免，所有属性+1</li>
+<li>一次只能有一个管家</li>
+<li><strong>效忠</strong>：基于你的说服获得额外收益</li>
+<li>说服 7：领主提供+1米移动速度和跳跃距离</li>
+<li>说服 12：你的管家额外提供一次其领主收益</li>
+<li>说服 16：你的管家额外提供一次其侍奉收益</li>
+<li><strong>渎神什一税</strong>：基于你的宗教获得额外收益</li>
+<li>宗教 7：领主提供+1亡灵伤害</li>
+<li>宗教 12：你的管家额外提供一次其领主收益</li>
+<li>宗教 16：你的管家额外提供一次其侍奉收益</li>
+</ul>
+</li>
+</ul>
+<h4 id="7_4">等级7<a class="headerlink" href="#7_4" title="Permanent link">&para;</a></h4>
+<ul>
+<li><strong>不敬共融</strong>：当你魅惑非盟友的野兽、怪物和等级较低的不死野兽时，它们可能在魅惑期间被支配（可切换）</li>
+<li>DC基于你的宗教，魅力豁免</li>
+<li>来自觉醒的洛山达之血的腐蚀光明光环在这些生物上持续2回合</li>
+<li><strong>虫潮</strong>：暗影仆从现在除了统御外不消耗其他资源</li>
+</ul>
+<h4 id="8_4">等级8<a class="headerlink" href="#8_4" title="Permanent link">&para;</a></h4>
+<ul>
+<li><strong>涌泉</strong>：两倍数量的暗影仆从响应你的召唤</li>
+<li>两者皆死亡时你收回统御</li>
+<li><strong>顶级宫廷</strong>：你可以召唤翼之恐怖（3）、食尸鬼（4）、狼人（4）或披风怪（5）为你服务</li>
+<li>顶级宫廷遵循你的命令</li>
+<li>仆从集群和聚合对它们生效</li>
+<li><strong>征服</strong>：你可以奴役敌方不死生物，范围增加到4.5米</li>
+<li>说服 12：最初中立的奴仆现在可以听从你的命令</li>
+<li>宗教 12：最初中立的奴仆不能再挣脱你的统治</li>
+</ul>
+<h4 id="9_4">等级9<a class="headerlink" href="#9_4" title="Permanent link">&para;</a></h4>
+<ul>
+<li>专精于驯兽、说服和宗教</li>
+</ul>
+<h4 id="10_4">等级10<a class="headerlink" href="#10_4" title="Permanent link">&para;</a></h4>
+<ul>
+<li><strong>夜之统治</strong>：你的暗影仆从变得更强</li>
+<li>老鼠变为巨鼠，拥有更多HP，死亡时分裂为普通老鼠（它们不占用统御）</li>
+<li>蝙蝠变为凶暴蝙蝠，拥有感染啃咬</li>
+<li>狼变为恐狼，拥有更多HP和激励嚎叫</li>
+<li>你的暗影仆从（包括奴仆和领主）和顶级宫廷拥有额外攻击</li>
+<li><strong>至高无上</strong>：奴役范围增加到6米</li>
+<li>说服 16：最初敌对的奴仆现在可以听从你的命令</li>
+<li>宗教 16：最初敌对的奴仆不能再挣脱你的控制</li>
+</ul>
+<h4 id="12_4">等级12<a class="headerlink" href="#12_4" title="Permanent link">&para;</a></h4>
+<ul>
+<li><strong>血统缔造者</strong>：你可以将你的活体同伴变为吸血鬼衍体</li>
+<li>吸血鬼衍体是你的领主</li>
+</ul>
+<h2 id="_17">长夜传奇<a class="headerlink" href="#_17" title="Permanent link">&para;</a></h2>
+<p>长夜传奇是在等级10解锁的特性，由从选择中选择一个传奇称号组成。</p>
+<p>每个称号带来不同深度的收益，可能开启新的游戏风格并满足各种幻想。</p>
+<p>称号受血契和性别限制，每个血契3个加任何吸血鬼都可以选择的3个，在这些三人组中，一个是男性，一个是女性，一个是中性。</p>
+<p>你可以在等级12选择第二个。</p>
+<p>两个称号都显示在你角色名字下方。</p>
+<div class="admonition tip">
+<p class="admonition-title">Tip</p>
+<p>称号受血契和性别限制，选择时请注意条件。</p>
+</div>
+<h3 id="_18">通用称号<a class="headerlink" href="#_18" title="Permanent link">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th>称号</th>
+<th>效果</th>
+<th>性别</th>
+<th>血契限制</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>全知者</strong></td>
+<td>将你的熟练加值加到所有技能上</td>
+<td>中性</td>
+<td>中性</td>
+</tr>
+<tr>
+<td><strong>交易王子</strong></td>
+<td>满足时，将你的熟练加值加到洞悉、说服、欺骗和表演上，并在相关检定上获得优势</td>
+<td>男性</td>
+<td>中性</td>
+</tr>
+<tr>
+<td><strong>暮光之眼女王</strong></td>
+<td>将你的熟练加值加到察觉上；你可以在普通和魔法黑暗中视物最远36米，在失明时仍能以18米感知周围环境，并可以看见隐形</td>
+<td>女性</td>
+<td>中性</td>
+</tr>
+</tbody>
+</table>
+<h3 id="_19">血戮者称号<a class="headerlink" href="#_19" title="Permanent link">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th>称号</th>
+<th>效果</th>
+<th>性别</th>
+<th>血契限制</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>血月</strong></td>
+<td>8米内流血的敌人不能隐形，你每有4点吸血鬼亢奋对这些敌人的重击阈值+1</td>
+<td>中性</td>
+<td>血戮者</td>
+</tr>
+<tr>
+<td><strong>篡位者</strong></td>
+<td>8米内的同伴被微妙地汲取，攻击掷骰、伤害、AC、属性检定、技能检定、豁免检定和DC各降低1，你每有一个受影响的盟友这些项各获得+1；此外，当盟友在8米内倒地或死亡时，你对他们的死亡豁免施加劣势，并进入狂喜状态2回合，抵消所有吸血鬼亢奋损失</td>
+<td>男性</td>
+<td>血戮者</td>
+</tr>
+<tr>
+<td><strong>红死</strong></td>
+<td>使敌人流血的同时施加裂伤，持续整个流血期间</td>
+<td>女性</td>
+<td>血戮者</td>
+</tr>
+</tbody>
+</table>
+<h3 id="_20">帷幕行者称号<a class="headerlink" href="#_20" title="Permanent link">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th>称号</th>
+<th>效果</th>
+<th>性别</th>
+<th>血契限制</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>黑刃</strong></td>
+<td>攻击满生命值的目标时，你可以用长夜之暗击中它，使其失去30%最大HP，并使你的攻击成为重击；这消耗9点暗影，实际HP量可能因HP缩放mod而广泛变化</td>
+<td>中性</td>
+<td>帷幕行者</td>
+</tr>
+<tr>
+<td><strong>恐惧之父</strong></td>
+<td>消灭敌人时，一个残影可能在其位置升起持续2回合和2点暗影；它投射6米恐惧（恐惧）和沉默光环；如果它自行消散，你恢复1点暗影；相反，如果它被强行摧毁，留下3米虚空持续1回合；残影存在期间，对你的攻击处于劣势</td>
+<td>男性</td>
+<td>帷幕行者</td>
+</tr>
+<tr>
+<td><strong>夜之女士</strong></td>
+<td>随意地，你可以对一次本会失败且具有优势的攻击掷骰或豁免检定获得+1d4；这消耗2点暗影；此外，在遮蔽下，你被动地为你熟练的属性或技能检定获得+1d4</td>
+<td>女性</td>
+<td>帷幕行者</td>
+</tr>
+</tbody>
+</table>
+<h3 id="_21">瘟疫编织者称号<a class="headerlink" href="#_21" title="Permanent link">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th>称号</th>
+<th>效果</th>
+<th>性别</th>
+<th>血契限制</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>血兆</strong></td>
+<td>催逼敌人的鲜血迸溅，在7米半径内对其造成1d4穿刺伤害，并使其流血1回合；直到下一回合结束，你可以再次施放造成2d4穿刺伤害和2回合流血；直到再下一回合，你可以再次施放造成3d4穿刺伤害和3回合流血；你恢复对每个目标每次施放造成伤害的25%；对流血免疫的敌人仍承受1点不可抵抗或增强的穿刺伤害；每次施放消耗一个动作和 bonus action</td>
+<td>中性</td>
+<td>瘟疫编织者</td>
+</tr>
+<tr>
+<td><strong>痛苦之主</strong></td>
+<td>对已感染目标施加疫咒或酸蚀时，一道枯萎射线从目标身上爆出，瞄准7米内最近的敌人，感染之；如果该敌人已感染，射线重复，最多7次</td>
+<td>男性</td>
+<td>瘟疫编织者</td>
+</tr>
+<tr>
+<td><strong>腐朽女主人</strong></td>
+<td>无尽折磨的豁免现在以劣势掷骰；此外，以尸体为食现在提供一半的进程而非毫无收获</td>
+<td>女性</td>
+<td>瘟疫编织者</td>
+</tr>
+</tbody>
+</table>
+<h3 id="_22">夜主称号<a class="headerlink" href="#_22" title="Permanent link">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th>称号</th>
+<th>效果</th>
+<th>性别</th>
+<th>血契限制</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>先祖至尊</strong></td>
+<td>你的领主的属性值和你自己的不能低于17，如果超过20则增加1；如果任命了管家，你和他们两者的属性值不能低于18，如果超过20则增加2</td>
+<td>中性</td>
+<td>夜主</td>
+</tr>
+<tr>
+<td><strong>纷争之王</strong></td>
+<td>战斗中，每回合对你所有暗影仆从造成1点不可抵抗或增强的亡灵伤害；作为交换，他们都获得你的熟练加值而非他们自己的，并将你一半的施法能力调整值加到攻击掷骰和伤害上；注意：小心与同伴领主的好感度损失</td>
+<td>男性</td>
+<td>夜主</td>
+</tr>
+<tr>
+<td><strong>夜织者</strong></td>
+<td>蜘蛛加入你的暗影仆从；它们有8 HP，毒咬、刺毛、虫茧、蛛网，消耗5点统御；它们受益于与其他暗影仆从相同的修正；此外，你的暗影仆从变为蛛丝联结，并使它们击中的敌人蛛丝联结；蛛丝联结敌人在对蛛丝联结暗影仆从造成伤害时承受等同于你的施法能力调整值的亡灵伤害</td>
+<td>女性</td>
+<td>夜主</td>
+</tr>
+</tbody>
+</table>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  回到页面顶部
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      &copy; 2024 在下夜独 | 
+<a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a>
+
+    </div>
+  
+  
+</div>
+      
+        
+<div class="md-social">
+  
+    
+    
+    
+    
+    <a href="https://space.bilibili.com/16303982" target="_blank" rel="noopener" title="B站主页" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M488.6 104.1c16.7 18.1 24.4 39.7 23.3 65.7v202.4c-.4 26.4-9.2 48.1-26.5 65.1-17.2 17-39.1 25.9-65.5 26.7H92c-26.4-.8-48.2-9.8-65.3-27.2S.7 396.5 0 368.2V169.8c.8-26 9.7-47.6 26.7-65.7C43.8 87.8 65.5 78.8 92 78h29.4L96 52.2c-5.7-5.7-8.6-13-8.6-21.8S90.3 14.3 96 8.6 109 0 117.9 0s16.1 2.9 21.9 8.6L213.1 78h88l74.5-69.4C381.7 2.9 389.2 0 398 0s16.1 2.9 21.9 8.6c5.7 5.7 8.6 13 8.6 21.8s-2.9 16.1-8.6 21.8L394.6 78h29.3c26.4.8 48 9.8 64.7 26.1m-38.8 69.7c-.4-9.6-3.7-17.4-10.7-23.5-5.2-6.1-14-9.4-22.7-9.8H96c-9.6.4-17.4 3.7-23.6 9.8-6.1 6.1-9.4 13.9-9.8 23.5v194.4c0 9.2 3.3 17 9.8 23.5s14.4 9.8 23.6 9.8h320.4c9.2 0 17-3.3 23.3-9.8s9.7-14.3 10.1-23.5zm-264.3 42.7c6.3 6.3 9.7 14.1 10.1 23.2V273c-.4 9.2-3.7 16.9-9.8 23.2-6.2 6.3-14 9.5-23.6 9.5s-17.5-3.2-23.6-9.5-9.4-14-9.8-23.2v-33.3c.4-9.1 3.8-16.9 10.1-23.2s13.2-9.6 23.3-10c9.2.4 17 3.7 23.3 10m191.5 0c6.3 6.3 9.7 14.1 10.1 23.2V273c-.4 9.2-3.7 16.9-9.8 23.2s-14 9.5-23.6 9.5-17.4-3.2-23.6-9.5c-7-6.3-9.4-14-9.7-23.2v-33.3c.3-9.1 3.7-16.9 10-23.2s14.1-9.6 23.3-10c9.2.4 17 3.7 23.3 10"/></svg>
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "..", "features": ["navigation.top", "search.suggest", "search.highlight", "content.code.copy"], "search": "../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "\u5df2\u590d\u5236", "clipboard.copy": "\u590d\u5236", "search.result.more.one": "\u5728\u8be5\u9875\u4e0a\u8fd8\u6709 1 \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.more.other": "\u5728\u8be5\u9875\u4e0a\u8fd8\u6709 # \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.none": "\u6ca1\u6709\u627e\u5230\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.one": "\u627e\u5230 1 \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.other": "# \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.placeholder": "\u952e\u5165\u4ee5\u5f00\u59cb\u641c\u7d22", "search.result.term.missing": "\u7f3a\u5c11", "select.version": "\u9009\u62e9\u5f53\u524d\u7248\u672c"}, "version": null}</script>
+    
+    
+  
+      <script src="../assets/javascripts/bundle.79ae519e.min.js"></script>
+      
+    
+  <script>
+    // 提示框标签汉化：无自定义标题时隐藏标签文字，有自定义标题时翻译为中文
+    document.addEventListener("DOMContentLoaded", function() {
+      // 无自定义标题的提示框：隐藏整个标题栏
+      document.querySelectorAll(".md-typeset .admonition > .admonition-title").forEach(function(el) {
+        // MkDocs Material 9.x 生成的默认标题只有英文单词（如 "Tip", "Danger"）
+        // 有自定义标题的会包含中文或其他内容
+        var text = el.textContent.trim();
+        var defaultTitles = ["Tip", "Note", "Warning", "Danger", "Info", "Success", "Failure", "Bug", "Abstract", "Question", "Example", "Quote", "Cite"];
+        if (defaultTitles.indexOf(text) !== -1) {
+          el.style.display = "none";
+        }
+      });
+      // 有自定义标题的提示框：翻译英文类型名为中文
+      var titleMap = {
+        "Tip": "提示",
+        "Note": "备注",
+        "Warning": "警告",
+        "Danger": "危险",
+        "Info": "信息",
+        "Success": "成功",
+        "Failure": "失败",
+        "Bug": "已知问题",
+        "Abstract": "摘要",
+        "Question": "问题",
+        "Example": "示例",
+        "Quote": "引用",
+        "Cite": "引用"
+      };
+      document.querySelectorAll(".md-typeset .admonition > .admonition-title").forEach(function(el) {
+        var text = el.textContent.trim();
+        // 如果标题是 "Tip: 结论" 这种格式，替换英文部分
+        Object.keys(titleMap).forEach(function(en) {
+          if (text === en + ":") {
+            el.textContent = titleMap[en] + ":";
+          }
+        });
+      });
+    });
+  </script>
+
+  </body>
+</html>
