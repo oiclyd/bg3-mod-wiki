@@ -15,10 +15,10 @@
 - [移动云盘（不限速）](https://caiyun.139.com/m/i?075CtoTN5xUYB)
 - [百度网盘（提取码：ZXYD）](https://pan.baidu.com/s/1HU2HVEmJZ9vZAs9UmAUenw?pwd=ZXYD)
 
-!!! success "内含MOD安装器"
+!!! success "内含MOD安装器+安装教学"
     [一键自动 | 安装 | 备份 | 还原 | 卸载 | MOD迁移]
 
-!!! success "内含SE+简中补丁"
+!!! success "内含SE+BG3MM+简中补丁"
     [MOD运行必备 | 成就解锁 | 自动更新 | 修复文本BUG]
 
 整合包包含大量群友自制内容：
