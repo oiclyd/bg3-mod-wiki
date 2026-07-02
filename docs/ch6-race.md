@@ -15,6 +15,8 @@
     > **夺灵大法** - 强取他人灵根补己之缺**五行金丹** - 以丹道重塑灵根本源
     > 然天道有常，逆天而行必遭反噬，慎之慎之。
 
+![修仙小常识](assets/linggen/sheet1_img8.png)
+
 !!! tip
     **修仙宝术 - 时光洪流**：洪荒时代，大道煌煌，众生皆可悟道修行；末法时代灵气枯竭，唯天命者可修。
 
@@ -25,6 +27,10 @@
 - **掌日**：消耗神识上限，操控傀儡（神识由感知加值决定）
 - **内观**：查看自身资质、大道、灵根、道行
 - **洞观**：查看范围内非友方灵根和道行等状态
+
+![分神术技能](assets/linggen/sheet1_img2.png)
+
+![分神术：内观](assets/linggen/sheet1_img3.png)
 
 ### 道行系统
 
@@ -83,6 +89,12 @@
 !!! tip
     凡入道者皆可觉醒五行灵根。资质分三等：上品（十数灵根）、中品（数十灵根）、下品（翻身无望）。
 
+![灵根选择界面](assets/linggen/sheet1_img0.png)
+
+![灵根资质与大道](assets/linggen/sheet1_img4.png)
+
+![资质等级](assets/linggen/sheet1_img5.png)
+
 #### 特殊灵根效果
 
 | 灵根 | 效果 | 天灵根效果 |
@@ -101,6 +113,40 @@
 | 暗 | 遮蔽下消耗反应使优势攻击重击 | 不再依赖优势 |
 | 混沌 | 同时拥有五行效果，短休恢复长休资源 | 同时拥有天灵根和普通效果 |
 
+#### 灵根效果截图参考
+
+以下是各灵根（含天灵根）的游戏内效果截图：
+
+**五行灵根：**
+
+![金灵根](assets/linggen/sheet2_img9.png) ![天金灵根](assets/linggen/sheet2_img11.png)
+
+![木灵根](assets/linggen/sheet2_img22.png) ![天木灵根](assets/linggen/sheet2_img20.png)
+
+![天水灵根](assets/linggen/sheet2_img18.png)
+
+![火灵根](assets/linggen/sheet2_img26.png) ![天火灵根](assets/linggen/sheet2_img32.png)
+
+![土灵根](assets/linggen/sheet2_img27.png) ![天土灵根](assets/linggen/sheet2_img36.png)
+
+**变异灵根：**
+
+![天冰灵根](assets/linggen/sheet2_img12.png)
+
+![天雷灵根](assets/linggen/sheet2_img14.png)
+
+![天暗灵根](assets/linggen/sheet2_img16.png)
+
+![毒灵根](assets/linggen/sheet2_img23.png)
+
+![血灵根](assets/linggen/sheet2_img29.png) ![天血灵根](assets/linggen/sheet2_img30.png)
+
+![天光灵根](assets/linggen/sheet2_img34.png)
+
+![天风灵根](assets/linggen/sheet2_img38.png)
+
+![混沌灵根](assets/linggen/sheet2_img40.png)
+
 #### 灵根配比公式
 
 | 灵根 | 配比 |
@@ -113,6 +159,16 @@
 | 风 | 土:木 = 3:2 |
 | 雷 | 金:水 = 4:1 |
 | 血 | 木:火 = 3:2 |
+
+**灵根配比截图示例：**
+
+![灵根配比：金10](assets/linggen/sheet2_img10.png) ![灵根配比：水10](assets/linggen/sheet2_img17.png)
+
+![灵根配比：木10](assets/linggen/sheet2_img25.png) ![灵根配比：火10](assets/linggen/sheet2_img33.png)
+
+![灵根配比：土10](assets/linggen/sheet2_img37.png)
+
+![灵根配比：混沌](assets/linggen/sheet2_img41.png)
 
 !!! tip
     **灵根调配篇：**夫天地造化，五行轮转，生生不息。修士调御灵根，当循天道至理：
