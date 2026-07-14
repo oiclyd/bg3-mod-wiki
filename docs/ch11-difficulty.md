@@ -504,9 +504,9 @@
 
 | 状态类型 | 压力变化 |
 | --- | --- |
-| 减少攻击掷骰/攻击劣势/减少移动速度 | +5 |
-| 减少AC/属性鉴定/法术难度等级 | +15 |
-| 无法移动和进行动作的控制状态 | +30 |
+| 减少攻击掷骰/攻击劣势/减少移动速度 | +2 |
+| 减少AC/属性鉴定/法术难度等级 | +10 |
+| 无法移动和进行动作的控制状态 | +25 |
 
 **受到攻击压力增减：**
 
@@ -628,3 +628,166 @@
     击杀不死生物极低概率获取。
 
 ![诱惑酒杯](assets/dungeon/image19.png)
+
+#### 头颅系列
+
+!!! tip
+    击杀特殊Boss有20%概率掉落。
+
+![头颅系列](assets/dungeon/image20.png)
+
+![头颅系列](assets/dungeon/image21.png)
+
+![头颅系列](assets/dungeon/image22.png)
+
+![头颅系列](assets/dungeon/image23.png)
+
+![头颅系列](assets/dungeon/image24.png)
+
+![头颅系列](assets/dungeon/image25.png)
+
+![头颅系列](assets/dungeon/image26.png)
+
+![头颅系列](assets/dungeon/image27.png)
+
+![头颅系列](assets/dungeon/image28.png)
+
+![头颅系列](assets/dungeon/image29.png)
+
+![头颅系列](assets/dungeon/image30.png)
+
+#### 通用系列
+
+##### 稀有
+
+![通用稀有](assets/dungeon/image31.png)
+
+![通用稀有](assets/dungeon/image32.png)
+
+![通用稀有](assets/dungeon/image33.png)
+
+![通用稀有](assets/dungeon/image34.png)
+
+![通用稀有](assets/dungeon/image35.png)
+
+![通用稀有](assets/dungeon/image36.png)
+
+![通用稀有](assets/dungeon/image37.png)
+
+![通用稀有](assets/dungeon/image38.png)
+
+![通用稀有](assets/dungeon/image39.png)
+
+![通用稀有](assets/dungeon/image40.png)
+
+![通用稀有](assets/dungeon/image41.png)
+
+![通用稀有](assets/dungeon/image42.png)
+
+![通用稀有](assets/dungeon/image43.png)
+
+![通用稀有](assets/dungeon/image44.png)
+
+##### 优良
+
+![通用优良](assets/dungeon/image45.png)
+
+![通用优良](assets/dungeon/image46.png)
+
+![通用优良](assets/dungeon/image47.png)
+
+![通用优良](assets/dungeon/image48.png)
+
+![通用优良](assets/dungeon/image49.png)
+
+![通用优良](assets/dungeon/image50.png)
+
+![通用优良](assets/dungeon/image51.png)
+
+![通用优良](assets/dungeon/image52.png)
+
+![通用优良](assets/dungeon/image53.png)
+
+![通用优良](assets/dungeon/image54.png)
+
+![通用优良](assets/dungeon/image55.png)
+
+![通用优良](assets/dungeon/image56.png)
+
+![通用优良](assets/dungeon/image57.png)
+
+![通用优良](assets/dungeon/image58.png)
+
+![通用优良](assets/dungeon/image59.png)
+
+![通用优良](assets/dungeon/image60.png)
+
+![通用优良](assets/dungeon/image61.png)
+
+![通用优良](assets/dungeon/image62.png)
+
+![通用优良](assets/dungeon/image63.png)
+
+![通用优良](assets/dungeon/image64.png)
+
+![通用优良](assets/dungeon/image65.png)
+
+![通用优良](assets/dungeon/image66.png)
+
+![通用优良](assets/dungeon/image67.png)
+
+![通用优良](assets/dungeon/image68.png)
+
+![通用优良](assets/dungeon/image69.png)
+
+![通用优良](assets/dungeon/image70.png)
+
+##### 普通
+
+具体数据以游戏内为准。
+
+##### 非常稀有
+
+![通用非常稀有](assets/dungeon/image71.png)
+
+![通用非常稀有](assets/dungeon/image72.png)
+
+![通用非常稀有](assets/dungeon/image73.png)
+
+![通用非常稀有](assets/dungeon/image74.png)
+
+![通用非常稀有](assets/dungeon/image75.png)
+
+![通用非常稀有](assets/dungeon/image76.png)
+
+![通用非常稀有](assets/dungeon/image77.png)
+
+![通用非常稀有](assets/dungeon/image78.png)
+
+![通用非常稀有](assets/dungeon/image79.png)
+
+##### 猎获
+
+![通用猎获](assets/dungeon/image80.png)
+
+![通用猎获](assets/dungeon/image81.png)
+
+![通用猎获](assets/dungeon/image82.png)
+
+![通用猎获](assets/dungeon/image83.png)
+
+![通用猎获](assets/dungeon/image84.png)
+
+![通用猎获](assets/dungeon/image85.png)
+
+![通用猎获](assets/dungeon/image86.png)
+
+![通用猎获](assets/dungeon/image87.png)
+
+#### 职业系列
+
+##### 重装
+
+![职业重装](assets/dungeon/image88.jpeg)
+
+![职业重装](assets/dungeon/image89.jpeg)
