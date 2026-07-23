@@ -1,0 +1,1340 @@
+
+<!doctype html>
+<html lang="zh" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+        <link rel="canonical" href="https://oiclyd.github.io/bg3-mod-wiki/wiki-guide/">
+      
+      
+      
+      
+        
+      
+      
+      <link rel="icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.7">
+    
+    
+      
+        <title>Wiki 写法说明 - 夜独整合包 Wiki</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.ec1eaa64.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noto+Sans+SC:300,300i,400,400i,700,700i%7CJetBrains+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Noto Sans SC";--md-code-font:"JetBrains Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  <script>
+    // 强制默认使用深色模式
+    if (!localStorage.getItem("__palette")) {
+      localStorage.setItem("__palette", JSON.stringify({
+        color: {
+          media: "(prefers-color-scheme: dark)",
+          scheme: "slate",
+          primary: "amber",
+          accent: "amber"
+        }
+      }));
+    }
+  </script>
+  
+
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="slate" data-md-color-primary="amber" data-md-color-accent="amber">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#wiki" class="md-skip">
+          跳转至
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="页眉">
+    <a href=".." title="夜独整合包 Wiki" class="md-header__button md-logo" aria-label="夜独整合包 Wiki" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            夜独整合包 Wiki
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Wiki 写法说明
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="amber" data-md-color-accent="amber"  aria-hidden="true"  type="radio" name="__palette" id="__palette_0">
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="搜索" placeholder="搜索" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="查找">
+        
+        <button type="reset" class="md-search__icon md-icon" title="清空当前内容" aria-label="清空当前内容" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            正在初始化搜索引擎
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="导航栏" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="夜独整合包 Wiki" class="md-nav__button md-logo" aria-label="夜独整合包 Wiki" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    夜独整合包 Wiki
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    首页
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ch1-start/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    新手入门
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ch2-mod/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    使用指南
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ch3-faq/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    常见问题
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ch4-class/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    职业攻略
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ch6-race/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    种族攻略
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ch7-divinity/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    专长攻略
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ch8-equip/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    装备攻略
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_9" >
+        
+          
+          <label class="md-nav__link" for="__nav_9" id="__nav_9_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    任务攻略
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_9_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_9">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    任务攻略
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ch10-quest/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    亡灵之路
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ch9-bloodtrail/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    亡灵之路（血径）
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ch9-summon/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    进化攻略
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ch11-difficulty/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    难度攻略
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ch12-alchemy/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    炼金攻略
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ch10-mod/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    自选模组
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="目录">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      目录
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        基础标题
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#admonition" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        提示框（Admonition）
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_6" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        引用块
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_7" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        表格
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_11" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        列表
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_15" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        文字样式
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_16" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        代码块（语法高亮）
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_18" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        分隔线
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_19" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        修改主题颜色
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_23" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        新建页面
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_24" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        常见问题
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="wiki">Wiki 写法说明<a class="headerlink" href="#wiki" title="Permanent link">&para;</a></h1>
+<p>本文档面向贡献者，介绍本 Wiki 所使用的 MkDocs Material 主题的 Markdown 写法规范，帮助你快速上手编辑文档。</p>
+<h2 id="_1">基础标题<a class="headerlink" href="#_1" title="Permanent link">&para;</a></h2>
+<p>标题用于组织页面结构，同时也会出现在右侧目录导航中。</p>
+<div class="highlight"><pre><span></span><code><span class="gh"># 一级标题（页面标题，每个 .md 文件只有一个）</span>
+<span class="gu">## 二级标题（章节，会出现在右侧目录）</span>
+<span class="gu">### 三级标题（小节，也会出现在右侧目录）</span>
+<span class="gu">#### 四级标题（段落小标题，不出现在目录中）</span>
+</code></pre></div>
+<blockquote>
+<p><strong>注意：</strong> 本站目录深度设置为 <code>toc_depth: 2</code>，即 <code>##</code> 和 <code>###</code> 级别的标题会显示在右侧目录导航中。如果你希望某个章节作为独立子目录显示，请使用 <code>##</code>。</p>
+</blockquote>
+<h2 id="admonition">提示框（Admonition）<a class="headerlink" href="#admonition" title="Permanent link">&para;</a></h2>
+<p>提示框用于突出重要信息，支持多种类型。写法为 <code>!!!</code> 加类型名，后面跟可选的标题。</p>
+<h3 id="_2">注意 / 警告<a class="headerlink" href="#_2" title="Permanent link">&para;</a></h3>
+<div class="highlight"><pre><span></span><code>!!! warning &quot;注意&quot;
+    这是一条警告信息。
+
+!!! danger &quot;危险&quot;
+    这是一条危险操作提示。
+</code></pre></div>
+<div class="admonition warning">
+<p class="admonition-title">注意</p>
+<p>这是一条警告信息。</p>
+</div>
+<div class="admonition danger">
+<p class="admonition-title">危险</p>
+<p>这是一条危险操作提示。</p>
+</div>
+<h3 id="_3">提示 / 信息<a class="headerlink" href="#_3" title="Permanent link">&para;</a></h3>
+<div class="highlight"><pre><span></span><code>!!! tip
+    这是一条提示信息。
+
+!!! tip &quot;小贴士&quot;
+    这是一条实用小贴士。
+</code></pre></div>
+<div class="admonition tip">
+<p class="admonition-title">Tip</p>
+<p>这是一条提示信息。</p>
+</div>
+<div class="admonition tip">
+<p class="admonition-title">小贴士</p>
+<p>这是一条实用小贴士。</p>
+</div>
+<h3 id="_4">成功 / 失败<a class="headerlink" href="#_4" title="Permanent link">&para;</a></h3>
+<div class="highlight"><pre><span></span><code>!!! success &quot;成功&quot;
+    操作成功时的提示。
+
+!!! failure &quot;失败&quot;
+    操作失败时的提示。
+
+!!! bug &quot;已知问题&quot;
+    这是一个已知的问题。
+</code></pre></div>
+<div class="admonition success">
+<p class="admonition-title">成功</p>
+<p>操作成功时的提示。</p>
+</div>
+<div class="admonition failure">
+<p class="admonition-title">失败</p>
+<p>操作失败时的提示。</p>
+</div>
+<div class="admonition bug">
+<p class="admonition-title">已知问题</p>
+<p>这是一个已知的问题。</p>
+</div>
+<h3 id="_5">可折叠提示框<a class="headerlink" href="#_5" title="Permanent link">&para;</a></h3>
+<p>使用 <code>???</code> 替代 <code>!!!</code> 可以创建默认折叠的提示框，使用 <code>???+</code> 则默认展开。</p>
+<div class="highlight"><pre><span></span><code>??? &quot;点击展开详情&quot;
+    折叠起来的详细内容。
+
+???+ &quot;默认展开&quot;
+    默认就是展开状态的详细内容。
+</code></pre></div>
+<details>
+<summary>点击展开详情</summary>
+<p>折叠起来的详细内容。</p>
+</details>
+<details open="open">
+<summary>默认展开</summary>
+<p>默认就是展开状态的详细内容。</p>
+</details>
+<h2 id="_6">引用块<a class="headerlink" href="#_6" title="Permanent link">&para;</a></h2>
+<p>引用块用于补充说明或引用重要信息，在本站中会显示为左侧金色边框的区块。</p>
+<div class="highlight"><pre><span></span><code><span class="k">&gt; </span><span class="ge">**任务主线：** 这是一条引用说明。</span>
+<span class="k">&gt;</span>
+<span class="ge">&gt; 引用块支持多行内容，空行用 `&gt;` 连接。</span>
+</code></pre></div>
+<blockquote>
+<p><strong>任务主线：</strong> 这是一条引用说明。</p>
+<p>引用块支持多行内容，空行用 <code>&gt;</code> 连接。</p>
+</blockquote>
+<h2 id="_7">表格<a class="headerlink" href="#_7" title="Permanent link">&para;</a></h2>
+<p>表格使用标准 Markdown 语法，用 <code>|</code> 分隔列，用 <code>---</code> 分隔表头和内容。</p>
+<h3 id="_8">基础表格<a class="headerlink" href="#_8" title="Permanent link">&para;</a></h3>
+<div class="highlight"><pre><span></span><code>| 列1 | 列2 | 列3 |
+| --- | --- | --- |
+| 内容1 | 内容2 | 内容3 |
+| 内容4 | 内容5 | 内容6 |
+</code></pre></div>
+<table>
+<thead>
+<tr>
+<th>列1</th>
+<th>列2</th>
+<th>列3</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>内容1</td>
+<td>内容2</td>
+<td>内容3</td>
+</tr>
+<tr>
+<td>内容4</td>
+<td>内容5</td>
+<td>内容6</td>
+</tr>
+</tbody>
+</table>
+<h3 id="_9">表格内加粗<a class="headerlink" href="#_9" title="Permanent link">&para;</a></h3>
+<div class="highlight"><pre><span></span><code>| 装备名称 | 获取地点 |
+| --- | --- |
+| <span class="gs">**锈蚀黑剑**</span> | 阴暗墓穴获取 |
+| <span class="gs">**凯瑟里克的盔甲**</span> | 击杀凯瑟里克·索姆 |
+</code></pre></div>
+<table>
+<thead>
+<tr>
+<th>装备名称</th>
+<th>获取地点</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>锈蚀黑剑</strong></td>
+<td>阴暗墓穴获取</td>
+</tr>
+<tr>
+<td><strong>凯瑟里克的盔甲</strong></td>
+<td>击杀凯瑟里克·索姆</td>
+</tr>
+</tbody>
+</table>
+<h3 id="_10">对齐方式<a class="headerlink" href="#_10" title="Permanent link">&para;</a></h3>
+<div class="highlight"><pre><span></span><code>| 左对齐 | 居中对齐 | 右对齐 |
+| --- | --- | --- |
+| 内容 | 内容 | 内容 |
+</code></pre></div>
+<table>
+<thead>
+<tr>
+<th>左对齐</th>
+<th>居中对齐</th>
+<th>右对齐</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>内容</td>
+<td>内容</td>
+<td>内容</td>
+</tr>
+</tbody>
+</table>
+<h2 id="_11">列表<a class="headerlink" href="#_11" title="Permanent link">&para;</a></h2>
+<h3 id="_12">无序列表<a class="headerlink" href="#_12" title="Permanent link">&para;</a></h3>
+<div class="highlight"><pre><span></span><code><span class="k">-</span><span class="w"> </span>项目一
+<span class="k">-</span><span class="w"> </span>项目二
+<span class="k">-</span><span class="w"> </span>项目三
+</code></pre></div>
+<ul>
+<li>项目一</li>
+<li>项目二</li>
+<li>项目三</li>
+</ul>
+<h3 id="_13">有序列表<a class="headerlink" href="#_13" title="Permanent link">&para;</a></h3>
+<div class="highlight"><pre><span></span><code><span class="k">1.</span> 第一步
+<span class="k">2.</span> 第二步
+<span class="k">3.</span> 第三步
+</code></pre></div>
+<ol>
+<li>第一步</li>
+<li>第二步</li>
+<li>第三步</li>
+</ol>
+<h3 id="_14">加粗列表项<a class="headerlink" href="#_14" title="Permanent link">&para;</a></h3>
+<div class="highlight"><pre><span></span><code><span class="k">-</span><span class="w"> </span><span class="gs">**粗体项目：**</span> 后面跟描述内容
+<span class="k">-</span><span class="w"> </span><span class="gs">**另一个项目：**</span> 描述内容
+</code></pre></div>
+<ul>
+<li><strong>粗体项目：</strong> 后面跟描述内容</li>
+<li><strong>另一个项目：</strong> 描述内容</li>
+</ul>
+<h2 id="_15">文字样式<a class="headerlink" href="#_15" title="Permanent link">&para;</a></h2>
+<div class="highlight"><pre><span></span><code><span class="gs">**加粗文字**</span>
+<span class="ge">*斜体文字*</span>
+<span class="gd">~~删除线文字~~</span>
+<span class="sb">`行内代码`</span>
+</code></pre></div>
+<p><strong>加粗文字</strong>
+<em>斜体文字</em>
+~~删除线文字~~
+<code>行内代码</code></p>
+<h2 id="_16">代码块（语法高亮）<a class="headerlink" href="#_16" title="Permanent link">&para;</a></h2>
+<p>使用三个反引号包裹代码块，在开头反引号后加上语言名称即可启用语法高亮。</p>
+<h3 id="markdown">Markdown 代码示例<a class="headerlink" href="#markdown" title="Permanent link">&para;</a></h3>
+<div class="highlight"><pre><span></span><code><span class="sb">    ```markdown</span>
+    # 这是一级标题
+    ## 这是二级标题
+
+<span class="w">    </span><span class="k">-</span><span class="w"> </span>列表项1
+<span class="w">    </span><span class="k">-</span><span class="w"> </span>列表项2
+
+    | 表头1 | 表头2 |
+    | --- | --- |
+    | 内容1 | 内容2 |
+<span class="sb">    ```</span>
+</code></pre></div>
+<h3 id="css">CSS 代码示例<a class="headerlink" href="#css" title="Permanent link">&para;</a></h3>
+<div class="highlight"><pre><span></span><code><span class="sb">    ```css</span>
+<span class="w">    </span><span class="p">.</span><span class="nc">md-typeset</span><span class="w"> </span><span class="nt">h1</span><span class="w"> </span><span class="p">{</span>
+<span class="w">        </span><span class="k">color</span><span class="p">:</span><span class="w"> </span><span class="mh">#ffc107</span><span class="p">;</span>
+<span class="w">        </span><span class="k">border-bottom</span><span class="p">:</span><span class="w"> </span><span class="mi">2</span><span class="kt">px</span><span class="w"> </span><span class="kc">solid</span><span class="w"> </span><span class="mh">#ffc107</span><span class="p">;</span>
+<span class="w">    </span><span class="p">}</span>
+<span class="sb">    ```</span>
+</code></pre></div>
+<h3 id="yaml">YAML 配置示例<a class="headerlink" href="#yaml" title="Permanent link">&para;</a></h3>
+<div class="highlight"><pre><span></span><code><span class="sb">    ```yaml</span>
+<span class="w">    </span><span class="nt">nav</span><span class="p">:</span>
+<span class="w">      </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="nt">首页</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">index.md</span>
+<span class="w">      </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="nt">装备攻略</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">ch8-equip.md</span>
+<span class="sb">    ```</span>
+</code></pre></div>
+<h3 id="_17">其他常用语言标识<a class="headerlink" href="#_17" title="Permanent link">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th>语言</th>
+<th>标识</th>
+<th>适用场景</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Markdown</td>
+<td><code>markdown</code></td>
+<td>Markdown 语法示例</td>
+</tr>
+<tr>
+<td>CSS</td>
+<td><code>css</code></td>
+<td>样式代码</td>
+</tr>
+<tr>
+<td>YAML</td>
+<td><code>yaml</code></td>
+<td>配置文件</td>
+</tr>
+<tr>
+<td>Python</td>
+<td><code>python</code></td>
+<td>Python 脚本</td>
+</tr>
+<tr>
+<td>JavaScript</td>
+<td><code>javascript</code> / <code>js</code></td>
+<td>JS 代码</td>
+</tr>
+<tr>
+<td>Bash / Shell</td>
+<td><code>bash</code> / <code>sh</code></td>
+<td>命令行脚本</td>
+</tr>
+<tr>
+<td>PowerShell</td>
+<td><code>powershell</code></td>
+<td>PowerShell 脚本</td>
+</tr>
+<tr>
+<td>JSON</td>
+<td><code>json</code></td>
+<td>JSON 数据</td>
+</tr>
+<tr>
+<td>HTML</td>
+<td><code>html</code></td>
+<td>HTML 代码</td>
+</tr>
+<tr>
+<td>C#</td>
+<td><code>csharp</code> / <code>cs</code></td>
+<td>C# 代码</td>
+</tr>
+<tr>
+<td>Lua</td>
+<td><code>lua</code></td>
+<td>Lua 脚本</td>
+</tr>
+</tbody>
+</table>
+<blockquote>
+<p><strong>提示：</strong> 如果不加语言标识，代码块会显示为普通文本，没有语法高亮和行号复制功能。</p>
+</blockquote>
+<h2 id="_18">分隔线<a class="headerlink" href="#_18" title="Permanent link">&para;</a></h2>
+<p>使用三个短横线 <code>---</code> 来创建分隔线，常用于分隔不同章节的内容。</p>
+<div class="highlight"><pre><span></span><code>---
+</code></pre></div>
+<hr />
+<h2 id="_19">修改主题颜色<a class="headerlink" href="#_19" title="Permanent link">&para;</a></h2>
+<p>本站的主题颜色在 <code>docs/stylesheets/extra.css</code> 中定义，使用金色（<code>#ffc107</code>）作为主色调。</p>
+<h3 id="_20">修改主色调<a class="headerlink" href="#_20" title="Permanent link">&para;</a></h3>
+<p>如果你想更换颜色，修改 <code>extra.css</code> 中的以下变量：</p>
+<div class="highlight"><pre><span></span><code><span class="p">:</span><span class="nd">root</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="nv">--md-primary-fg-color</span><span class="p">:</span><span class="w"> </span><span class="mh">#ffc107</span><span class="p">;</span><span class="w">       </span><span class="c">/* 主色 */</span>
+<span class="w">    </span><span class="nv">--md-primary-fg-color--light</span><span class="p">:</span><span class="w"> </span><span class="mh">#ffe082</span><span class="p">;</span><span class="w"> </span><span class="c">/* 浅色变体 */</span>
+<span class="w">    </span><span class="nv">--md-primary-fg-color--dark</span><span class="p">:</span><span class="w"> </span><span class="mh">#ff8f00</span><span class="p">;</span><span class="w">  </span><span class="c">/* 深色变体 */</span>
+<span class="w">    </span><span class="nv">--md-accent-fg-color</span><span class="p">:</span><span class="w"> </span><span class="mh">#ffc107</span><span class="p">;</span><span class="w">        </span><span class="c">/* 强调色 */</span>
+<span class="p">}</span>
+</code></pre></div>
+<p>常用配色参考：</p>
+<table>
+<thead>
+<tr>
+<th>颜色</th>
+<th>色值</th>
+<th>效果</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>金色（当前）</td>
+<td><code>#ffc107</code></td>
+<td>暖色调，适合游戏攻略</td>
+</tr>
+<tr>
+<td>翠绿</td>
+<td><code>#4caf50</code></td>
+<td>自然清新风格</td>
+</tr>
+<tr>
+<td>天蓝</td>
+<td><code>#2196f3</code></td>
+<td>科技感风格</td>
+</tr>
+<tr>
+<td>紫色</td>
+<td><code>#9c27b0</code></td>
+<td>神秘魔幻风格</td>
+</tr>
+<tr>
+<td>红色</td>
+<td><code>#f44336</code></td>
+<td>热血战斗风格</td>
+</tr>
+</tbody>
+</table>
+<h3 id="_21">修改标题栏渐变<a class="headerlink" href="#_21" title="Permanent link">&para;</a></h3>
+<div class="highlight"><pre><span></span><code><span class="p">.</span><span class="nc">md-header</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="k">background</span><span class="p">:</span><span class="w"> </span><span class="nb">linear-gradient</span><span class="p">(</span><span class="mi">90</span><span class="kt">deg</span><span class="p">,</span><span class="w"> </span><span class="mh">#1a1a2e</span><span class="w"> </span><span class="mi">0</span><span class="kt">%</span><span class="p">,</span><span class="w"> </span><span class="mh">#16213e</span><span class="w"> </span><span class="mi">50</span><span class="kt">%</span><span class="p">,</span><span class="w"> </span><span class="mh">#0f3460</span><span class="w"> </span><span class="mi">100</span><span class="kt">%</span><span class="p">)</span><span class="w"> </span><span class="cp">!important</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre></div>
+<p>将三个颜色值替换为你想要的渐变色即可。</p>
+<h3 id="_22">修改各级标题颜色<a class="headerlink" href="#_22" title="Permanent link">&para;</a></h3>
+<div class="highlight"><pre><span></span><code><span class="p">.</span><span class="nc">md-typeset</span><span class="w"> </span><span class="nt">h1</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="k">color</span><span class="p">:</span><span class="w"> </span><span class="mh">#ffc107</span><span class="p">;</span><span class="w"> </span><span class="p">}</span><span class="w">  </span><span class="c">/* 一级标题 */</span>
+<span class="p">.</span><span class="nc">md-typeset</span><span class="w"> </span><span class="nt">h2</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="k">color</span><span class="p">:</span><span class="w"> </span><span class="mh">#ffe082</span><span class="p">;</span><span class="w"> </span><span class="p">}</span><span class="w">  </span><span class="c">/* 二级标题 */</span>
+<span class="p">.</span><span class="nc">md-typeset</span><span class="w"> </span><span class="nt">h3</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="k">color</span><span class="p">:</span><span class="w"> </span><span class="mh">#ffd54f</span><span class="p">;</span><span class="w"> </span><span class="p">}</span><span class="w">  </span><span class="c">/* 三级标题 */</span>
+</code></pre></div>
+<h2 id="_23">新建页面<a class="headerlink" href="#_23" title="Permanent link">&para;</a></h2>
+<h3 id="1-md">1. 创建 .md 文件<a class="headerlink" href="#1-md" title="Permanent link">&para;</a></h3>
+<p>在 <code>docs/</code> 目录下创建新的 <code>.md</code> 文件，文件名遵循 <code>ch*-xxx.md</code> 的命名规范。</p>
+<h3 id="2">2. 注册到导航<a class="headerlink" href="#2" title="Permanent link">&para;</a></h3>
+<p>在根目录的 <code>mkdocs.yml</code> 文件中的 <code>nav</code> 部分添加新条目：</p>
+<div class="highlight"><pre><span></span><code><span class="nt">nav</span><span class="p">:</span>
+<span class="w">  </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="nt">首页</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">index.md</span>
+<span class="w">  </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="nt">新手入门</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">ch1-start.md</span>
+<span class="w">  </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="nt">你的新页面</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">ch13-yourpage.md</span><span class="w">   </span><span class="c1"># 在这里添加</span>
+</code></pre></div>
+<h3 id="3">3. 本地预览<a class="headerlink" href="#3" title="Permanent link">&para;</a></h3>
+<div class="highlight"><pre><span></span><code>pip<span class="w"> </span>install<span class="w"> </span>mkdocs-material
+mkdocs<span class="w"> </span>serve
+</code></pre></div>
+<p>浏览器打开 <code>http://127.0.0.1:8000</code> 即可预览。</p>
+<h2 id="_24">常见问题<a class="headerlink" href="#_24" title="Permanent link">&para;</a></h2>
+<h3 id="_25">表格显示异常？<a class="headerlink" href="#_25" title="Permanent link">&para;</a></h3>
+<p>确保表头分隔行 <code>| --- | --- |</code> 的短横线数量至少为 3 个，且每列都有分隔符。</p>
+<h3 id="_26">提示框不生效？<a class="headerlink" href="#_26" title="Permanent link">&para;</a></h3>
+<p>确保 <code>mkdocs.yml</code> 中已启用 <code>admonition</code> 扩展（本站已启用）：</p>
+<div class="highlight"><pre><span></span><code><span class="nt">markdown_extensions</span><span class="p">:</span>
+<span class="w">  </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">admonition</span>
+<span class="w">  </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">pymdownx.details</span>
+</code></pre></div>
+<h3 id="_27">修改后页面没变化？<a class="headerlink" href="#_27" title="Permanent link">&para;</a></h3>
+<p>GitHub Actions 自动部署通常需要 1-2 分钟。如果超过 5 分钟仍未更新，请检查 Actions 页面的构建状态。</p>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  回到页面顶部
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      &copy; 2024 在下夜独 | 
+<a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a>
+
+    </div>
+  
+  
+</div>
+      
+        
+<div class="md-social">
+  
+    
+    
+    
+    
+    <a href="https://space.bilibili.com/16303982" target="_blank" rel="noopener" title="B站主页" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M488.6 104.1c16.7 18.1 24.4 39.7 23.3 65.7v202.4c-.4 26.4-9.2 48.1-26.5 65.1-17.2 17-39.1 25.9-65.5 26.7H92c-26.4-.8-48.2-9.8-65.3-27.2S.7 396.5 0 368.2V169.8c.8-26 9.7-47.6 26.7-65.7C43.8 87.8 65.5 78.8 92 78h29.4L96 52.2c-5.7-5.7-8.6-13-8.6-21.8S90.3 14.3 96 8.6 109 0 117.9 0s16.1 2.9 21.9 8.6L213.1 78h88l74.5-69.4C381.7 2.9 389.2 0 398 0s16.1 2.9 21.9 8.6c5.7 5.7 8.6 13 8.6 21.8s-2.9 16.1-8.6 21.8L394.6 78h29.3c26.4.8 48 9.8 64.7 26.1m-38.8 69.7c-.4-9.6-3.7-17.4-10.7-23.5-5.2-6.1-14-9.4-22.7-9.8H96c-9.6.4-17.4 3.7-23.6 9.8-6.1 6.1-9.4 13.9-9.8 23.5v194.4c0 9.2 3.3 17 9.8 23.5s14.4 9.8 23.6 9.8h320.4c9.2 0 17-3.3 23.3-9.8s9.7-14.3 10.1-23.5zm-264.3 42.7c6.3 6.3 9.7 14.1 10.1 23.2V273c-.4 9.2-3.7 16.9-9.8 23.2-6.2 6.3-14 9.5-23.6 9.5s-17.5-3.2-23.6-9.5-9.4-14-9.8-23.2v-33.3c.4-9.1 3.8-16.9 10.1-23.2s13.2-9.6 23.3-10c9.2.4 17 3.7 23.3 10m191.5 0c6.3 6.3 9.7 14.1 10.1 23.2V273c-.4 9.2-3.7 16.9-9.8 23.2s-14 9.5-23.6 9.5-17.4-3.2-23.6-9.5c-7-6.3-9.4-14-9.7-23.2v-33.3c.3-9.1 3.7-16.9 10-23.2s14.1-9.6 23.3-10c9.2.4 17 3.7 23.3 10"/></svg>
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "..", "features": ["navigation.top", "search.suggest", "search.highlight", "content.code.copy"], "search": "../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "\u5df2\u590d\u5236", "clipboard.copy": "\u590d\u5236", "search.result.more.one": "\u5728\u8be5\u9875\u4e0a\u8fd8\u6709 1 \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.more.other": "\u5728\u8be5\u9875\u4e0a\u8fd8\u6709 # \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.none": "\u6ca1\u6709\u627e\u5230\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.one": "\u627e\u5230 1 \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.other": "# \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.placeholder": "\u952e\u5165\u4ee5\u5f00\u59cb\u641c\u7d22", "search.result.term.missing": "\u7f3a\u5c11", "select.version": "\u9009\u62e9\u5f53\u524d\u7248\u672c"}, "version": null}</script>
+    
+    
+  
+      <script src="../assets/javascripts/bundle.d7400e89.min.js"></script>
+      
+    
+  <script>
+    // 提示框标签汉化：无自定义标题时隐藏标签文字，有自定义标题时翻译为中文
+    document.addEventListener("DOMContentLoaded", function() {
+      // 无自定义标题的提示框：隐藏整个标题栏
+      document.querySelectorAll(".md-typeset .admonition > .admonition-title").forEach(function(el) {
+        // MkDocs Material 9.x 生成的默认标题只有英文单词（如 "Tip", "Danger"）
+        // 有自定义标题的会包含中文或其他内容
+        var text = el.textContent.trim();
+        var defaultTitles = ["Tip", "Note", "Warning", "Danger", "Info", "Success", "Failure", "Bug", "Abstract", "Question", "Example", "Quote", "Cite"];
+        if (defaultTitles.indexOf(text) !== -1) {
+          el.style.display = "none";
+        }
+      });
+      // 有自定义标题的提示框：翻译英文类型名为中文
+      var titleMap = {
+        "Tip": "提示",
+        "Note": "备注",
+        "Warning": "警告",
+        "Danger": "危险",
+        "Info": "信息",
+        "Success": "成功",
+        "Failure": "失败",
+        "Bug": "已知问题",
+        "Abstract": "摘要",
+        "Question": "问题",
+        "Example": "示例",
+        "Quote": "引用",
+        "Cite": "引用"
+      };
+      document.querySelectorAll(".md-typeset .admonition > .admonition-title").forEach(function(el) {
+        var text = el.textContent.trim();
+        // 如果标题是 "Tip: 结论" 这种格式，替换英文部分
+        Object.keys(titleMap).forEach(function(en) {
+          if (text === en + ":") {
+            el.textContent = titleMap[en] + ":";
+          }
+        });
+      });
+    });
+  </script>
+
+  </body>
+</html>
