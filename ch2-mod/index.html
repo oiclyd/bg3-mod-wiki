@@ -1,0 +1,1122 @@
+
+<!doctype html>
+<html lang="zh" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+        <link rel="canonical" href="https://oiclyd.github.io/bg3-mod-wiki/ch2-mod/">
+      
+      
+        <link rel="prev" href="../ch1-start/">
+      
+      
+        <link rel="next" href="../ch3-faq/">
+      
+      
+        
+      
+      
+      <link rel="icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.7">
+    
+    
+      
+        <title>使用指南 - 夜独整合包 Wiki</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.ec1eaa64.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noto+Sans+SC:300,300i,400,400i,700,700i%7CJetBrains+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Noto Sans SC";--md-code-font:"JetBrains Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  <script>
+    // 强制默认使用深色模式
+    if (!localStorage.getItem("__palette")) {
+      localStorage.setItem("__palette", JSON.stringify({
+        color: {
+          media: "(prefers-color-scheme: dark)",
+          scheme: "slate",
+          primary: "amber",
+          accent: "amber"
+        }
+      }));
+    }
+  </script>
+  
+
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="slate" data-md-color-primary="amber" data-md-color-accent="amber">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#_1" class="md-skip">
+          跳转至
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="页眉">
+    <a href=".." title="夜独整合包 Wiki" class="md-header__button md-logo" aria-label="夜独整合包 Wiki" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            夜独整合包 Wiki
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              使用指南
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="amber" data-md-color-accent="amber"  aria-hidden="true"  type="radio" name="__palette" id="__palette_0">
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="搜索" placeholder="搜索" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="查找">
+        
+        <button type="reset" class="md-search__icon md-icon" title="清空当前内容" aria-label="清空当前内容" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            正在初始化搜索引擎
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="导航栏" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="夜独整合包 Wiki" class="md-nav__button md-logo" aria-label="夜独整合包 Wiki" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    夜独整合包 Wiki
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    首页
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ch1-start/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    新手入门
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    使用指南
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    使用指南
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="目录">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      目录
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        自动功能
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ui" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        UI相关
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        技能相关
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#mcm" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        MCM相关
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#se" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        SE控制台代码
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ch3-faq/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    常见问题
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ch4-class/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    职业攻略
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ch6-race/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    种族攻略
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ch7-divinity/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    专长攻略
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ch8-equip/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    装备攻略
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_9" >
+        
+          
+          <label class="md-nav__link" for="__nav_9" id="__nav_9_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    任务攻略
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_9_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_9">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    任务攻略
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ch10-quest/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    亡灵之路
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ch9-bloodtrail/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    亡灵之路（血径）
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ch9-summon/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    进化攻略
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ch11-difficulty/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    难度攻略
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ch12-alchemy/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    炼金攻略
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ch10-mod/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    自选模组
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="目录">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      目录
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        自动功能
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ui" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        UI相关
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        技能相关
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#mcm" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        MCM相关
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#se" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        SE控制台代码
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="_1">使用指南<a class="headerlink" href="#_1" title="Permanent link">&para;</a></h1>
+<h2 id="_2">自动功能<a class="headerlink" href="#_2" title="Permanent link">&para;</a></h2>
+<ul>
+<li><strong>自动拾取：</strong>建议序章之后再开启开关（两只手图标，二选一），再次双击可关闭自动拾取。</li>
+<li><strong>自动背包：</strong>如果角色物品栏本身有物品，把背包移到随身仓库再拿回来会自动收纳角色物品栏内相对应的物品。</li>
+</ul>
+<h2 id="ui">UI相关<a class="headerlink" href="#ui" title="Permanent link">&para;</a></h2>
+<ul>
+<li>如果你是16:10的屏幕</li>
+<li>点不了战斗日志</li>
+<li>觉得快捷栏太小</li>
+</ul>
+<div class="admonition tip">
+<p class="admonition-title">Tip</p>
+<p>删掉MOD管理器内的【UI-更好的热键栏-BetterHotb】</p>
+<p>或替换成自选模组内的【Ui-热键栏(16：10自适应版)】</p>
+</div>
+<h2 id="_3">技能相关<a class="headerlink" href="#_3" title="Permanent link">&para;</a></h2>
+<ul>
+<li>进游戏后先把技能栏全部拖到左边（拖动红色的条），这样才能出现完整的技能栏。</li>
+<li>进游戏后按C会刷出兽王召唤。</li>
+<li>进游戏后先存档然后再读档会刷出新技能。</li>
+<li>死灵宝可梦的技能可以一键收纳尸体，死灵复活不要对起源队友使用。</li>
+<li>重塑技能可以洗点、换种族、重新捏脸，但是换种族并不能完全去除你原来种族的特性。</li>
+</ul>
+<h3 id="_4">快速下船<a class="headerlink" href="#_4" title="Permanent link">&para;</a></h3>
+<div class="admonition tip">
+<p class="admonition-title">Tip</p>
+<p>快速下船mod会提供两个技能跳过序章剧情。</p>
+<p>快速下船mod默认直接完成我们与耶格的支线。</p>
+</div>
+<ul>
+<li>下船即可在营地看到耶格，使用其功能。</li>
+<li>耶格现在是可交易目标，随时可以去营地卖东西。</li>
+</ul>
+<div class="admonition tip">
+<p class="admonition-title">Tip</p>
+<p><strong>注意：</strong>原版物品长休后消失，MOD物品会保留。</p>
+</div>
+<div class="admonition warning">
+<p class="admonition-title">注意</p>
+<p>请过完莱泽埃尔的剧情再用【拯救影心】，否则可能导致她的模型丢失。</p>
+<p>请过完莱泽埃尔与影心的剧情再用【跳过序章】，否则可能导致莱泽埃尔和影心模型丢失。</p>
+<p>最好是自己下船，否则指挥官掉落的mod物品拿不到。</p>
+</div>
+<h2 id="mcm">MCM相关<a class="headerlink" href="#mcm" title="Permanent link">&para;</a></h2>
+<h3 id="mcm_1">MCM简易作弊<a class="headerlink" href="#mcm_1" title="Permanent link">&para;</a></h3>
+<div class="admonition tip">
+<p class="admonition-title">Tip</p>
+<p>如果进游戏没显示出来，切换角色存档读档即可。</p>
+</div>
+<h3 id="mcm_2">MCM菜单说明<a class="headerlink" href="#mcm_2" title="Permanent link">&para;</a></h3>
+<ul>
+<li>MCM菜单不支持4K，如果你是4K游玩请退为2K等MCM生效再切换为4K，或者切换为【Vulkan】模式启动。</li>
+<li>英伟达的Ai插针和小黄鸭的帧生成，都会导致打不开MCM菜单请关掉。</li>
+<li>现在难度均可自行通过游戏内置的【MCM】菜单进行调整！</li>
+<li>不想打随机骷髅请把mod骷髅挑战(1d4)移除。</li>
+</ul>
+<h3 id="_5">装备幻化<a class="headerlink" href="#_5" title="Permanent link">&para;</a></h3>
+<h4 id="mcm_3">MCM装备幻化说明<a class="headerlink" href="#mcm_3" title="Permanent link">&para;</a></h4>
+<ul>
+<li>请使用 <strong>DX11</strong> 启动游戏，Vulkan可能不稳定或崩溃</li>
+<li>创建"预设"：为整个队伍管理完整的套装，包括护甲、服装、染色、武器外观等</li>
+<li>即时切换预设：在不同预设之间切换时，整个队伍的外观会立即更新</li>
+<li>保留原始属性：装备在采用预设外观的同时，会保留其原始属性</li>
+<li>跨槽位外观：允许在不同槽位显示物品（例如，在靴子槽显示手套）</li>
+<li>附加装饰性视觉效果（VFX）：为装备和角色附加装饰性视觉效果（火焰武器、发光效果等），对游戏玩法没有影响</li>
+<li>即时预览物品和染色：可以即时预览物品和染色，保存收藏夹，并隐藏不想显示的外观</li>
+<li>完全支持多人游戏：联机时请保证所有人的MCM设置都一致</li>
+<li>可分享的预设：可以导出为文件，发送给朋友，或者打包到你自己的模组中</li>
+<li>如果使用过幻化水晶：请在MCM创建外观套装之前，先解除已装备物品的幻化</li>
+</ul>
+<h4 id="_6">幻化水晶说明<a class="headerlink" href="#_6" title="Permanent link">&para;</a></h4>
+<ul>
+<li>幻化水晶是Vulkan模式下的替代品</li>
+<li><strong>请不要使用幻化水晶去幻化武器！</strong></li>
+</ul>
+<h3 id="mcm_4">MCM角色预设导入导出<a class="headerlink" href="#mcm_4" title="Permanent link">&para;</a></h3>
+<div class="admonition danger">
+<p class="admonition-title">注意</p>
+<p>切勿跨体型或跨种族使用预设！</p>
+<p>请先通过"换种族技能"更改至预设的种族及体型（整合包内[技能-重新捏脸-AppearanceEditEnhanced]的功能）</p>
+</div>
+<h4 id="_7">使用步骤<a class="headerlink" href="#_7" title="Permanent link">&para;</a></h4>
+<ol>
+<li>务必先存档！</li>
+<li>载入游戏</li>
+<li>按住 <code>Shift + E</code> 打开窗口，<strong>对着角色模型按鼠标中键</strong>（关键）</li>
+<li>选择预设并应用</li>
+<li>点击"打开角色编辑器刷新头像"以更新角色</li>
+</ol>
+<h4 id="_8">注意事项<a class="headerlink" href="#_8" title="Permanent link">&para;</a></h4>
+<ul>
+<li>应用预设后，侧边栏角色头像有时会消失；再招募一名队友即可恢复。</li>
+<li>角色编辑界面的"确认"按钮可能失灵（可先切换任意头部再切回，即可正常确认），该Bug仍在修复中。</li>
+<li>若出现部位重叠，重新应用一次预设即可解决。</li>
+</ul>
+<h4 id="_9">导出预设须知<a class="headerlink" href="#_9" title="Permanent link">&para;</a></h4>
+<ul>
+<li>给预设命名，若分享请附上详细说明（例：<code>HUM_M_T2</code>）</li>
+<li>如使用Mod，注明Mod名称或链接</li>
+<li>导出后不会立刻显示，需点击"扫描预设文件"刷新列表</li>
+<li>导出路径：<code>C:\Users\\AppData\Local\Larian Studios\Baldur's Gate 3\Script Extender\CC_Preset</code></li>
+<li>从别处获取的预设放入上述目录并刷新列表，文件名按顺序：<code>P_1.json</code>、<code>P_2.json</code>...</li>
+</ul>
+<h2 id="se">SE控制台代码<a class="headerlink" href="#se" title="Permanent link">&para;</a></h2>
+<h3 id="a">A. 移除威尔的恶魔形态，恢复原来外观<a class="headerlink" href="#a" title="Permanent link">&para;</a></h3>
+<div class="highlight"><pre><span></span><code>Osi.RemoveTransforms(&quot;S_Player_Wyll_c774d764-4a17-48dc-b470-32ace9ce447d&quot;)
+</code></pre></div>
+<div class="admonition tip">
+<p class="admonition-title">效果</p>
+<p>会把威尔的"恶魔变身外观"移除掉，威尔会恢复到变身前的外观和头像。</p>
+<p>如果你用捏脸/自定义改过威尔，这里会恢复到你自定义后的样子。</p>
+</div>
+<h3 id="b">B. 移除影心的白发新发型，恢复老样子<a class="headerlink" href="#b" title="Permanent link">&para;</a></h3>
+<div class="admonition tip">
+<p class="admonition-title">Tip</p>
+<p>以下三行都要输入并回车，缺一行都可能不会生效：</p>
+</div>
+<div class="highlight"><pre><span></span><code>Osi.RemoveCustomVisualOvirride(&quot;S_Player_ShadowHeart_3ed74f06-3c60-42dc-83f6-f034cb47c679&quot;, &quot;e05b0f79-d3af-41eb-b0b2-1164b6f0debf&quot;)
+Osi.RemoveCustomVisualOvirride(&quot;S_Player_ShadowHeart_3ed74f06-3c60-42dc-83f6-f034cb47c679&quot;, &quot;c7f78eb7-6858-4f02-836b-d8c8b56c34fc&quot;)
+Osi.RemoveCustomMaterialOverride(&quot;S_Player_ShadowHeart_3ed74f06-3c60-42dc-83f6-f034cb47c679&quot;, &quot;831f8c8a-4101-4265-ad55-1a57217d2af7&quot;)
+</code></pre></div>
+<div class="admonition tip">
+<p class="admonition-title">效果</p>
+<p>移除影心的"新白色斜刘海发型"和那一套染发材质。</p>
+<p>让影心回到原本的黑色发型（或你之前自定义的发色/发型）。</p>
+</div>
+<h3 id="se_1">SE控制台使用方法<a class="headerlink" href="#se_1" title="Permanent link">&para;</a></h3>
+<div class="admonition tip">
+<p class="admonition-title">Tip</p>
+<ol>
+<li><strong>什么是SE控制台？</strong> 当你用Script Extender（脚本拓展器）启动博德之门3时，会自动弹出一个黑色的命令窗口，名为"BG3 Script Extender Debug Console"，这个黑色窗口就叫做SE控制台。</li>
+<li><strong>怎么切到SE控制台？</strong> 保持游戏在运行，不用退出到主菜单。把控制台切到最前面，用鼠标点一下黑色窗口内部，确保键盘输入焦点在这个窗口里。</li>
+<li><strong>怎么输入命令？</strong> 先按一次Enter（回车键），让光标跑到新的一行。把命令一行一行复制粘贴进去，每粘贴一行按一次Enter执行。执行成功不会有明显提示，只会在窗口里多出几行日志文字，这是正常的。</li>
+</ol>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  回到页面顶部
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      &copy; 2024 在下夜独 | 
+<a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a>
+
+    </div>
+  
+  
+</div>
+      
+        
+<div class="md-social">
+  
+    
+    
+    
+    
+    <a href="https://space.bilibili.com/16303982" target="_blank" rel="noopener" title="B站主页" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M488.6 104.1c16.7 18.1 24.4 39.7 23.3 65.7v202.4c-.4 26.4-9.2 48.1-26.5 65.1-17.2 17-39.1 25.9-65.5 26.7H92c-26.4-.8-48.2-9.8-65.3-27.2S.7 396.5 0 368.2V169.8c.8-26 9.7-47.6 26.7-65.7C43.8 87.8 65.5 78.8 92 78h29.4L96 52.2c-5.7-5.7-8.6-13-8.6-21.8S90.3 14.3 96 8.6 109 0 117.9 0s16.1 2.9 21.9 8.6L213.1 78h88l74.5-69.4C381.7 2.9 389.2 0 398 0s16.1 2.9 21.9 8.6c5.7 5.7 8.6 13 8.6 21.8s-2.9 16.1-8.6 21.8L394.6 78h29.3c26.4.8 48 9.8 64.7 26.1m-38.8 69.7c-.4-9.6-3.7-17.4-10.7-23.5-5.2-6.1-14-9.4-22.7-9.8H96c-9.6.4-17.4 3.7-23.6 9.8-6.1 6.1-9.4 13.9-9.8 23.5v194.4c0 9.2 3.3 17 9.8 23.5s14.4 9.8 23.6 9.8h320.4c9.2 0 17-3.3 23.3-9.8s9.7-14.3 10.1-23.5zm-264.3 42.7c6.3 6.3 9.7 14.1 10.1 23.2V273c-.4 9.2-3.7 16.9-9.8 23.2-6.2 6.3-14 9.5-23.6 9.5s-17.5-3.2-23.6-9.5-9.4-14-9.8-23.2v-33.3c.4-9.1 3.8-16.9 10.1-23.2s13.2-9.6 23.3-10c9.2.4 17 3.7 23.3 10m191.5 0c6.3 6.3 9.7 14.1 10.1 23.2V273c-.4 9.2-3.7 16.9-9.8 23.2s-14 9.5-23.6 9.5-17.4-3.2-23.6-9.5c-7-6.3-9.4-14-9.7-23.2v-33.3c.3-9.1 3.7-16.9 10-23.2s14.1-9.6 23.3-10c9.2.4 17 3.7 23.3 10"/></svg>
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "..", "features": ["navigation.top", "search.suggest", "search.highlight", "content.code.copy"], "search": "../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "\u5df2\u590d\u5236", "clipboard.copy": "\u590d\u5236", "search.result.more.one": "\u5728\u8be5\u9875\u4e0a\u8fd8\u6709 1 \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.more.other": "\u5728\u8be5\u9875\u4e0a\u8fd8\u6709 # \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.none": "\u6ca1\u6709\u627e\u5230\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.one": "\u627e\u5230 1 \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.other": "# \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.placeholder": "\u952e\u5165\u4ee5\u5f00\u59cb\u641c\u7d22", "search.result.term.missing": "\u7f3a\u5c11", "select.version": "\u9009\u62e9\u5f53\u524d\u7248\u672c"}, "version": null}</script>
+    
+    
+  
+      <script src="../assets/javascripts/bundle.d7400e89.min.js"></script>
+      
+    
+  <script>
+    // 提示框标签汉化：无自定义标题时隐藏标签文字，有自定义标题时翻译为中文
+    document.addEventListener("DOMContentLoaded", function() {
+      // 无自定义标题的提示框：隐藏整个标题栏
+      document.querySelectorAll(".md-typeset .admonition > .admonition-title").forEach(function(el) {
+        // MkDocs Material 9.x 生成的默认标题只有英文单词（如 "Tip", "Danger"）
+        // 有自定义标题的会包含中文或其他内容
+        var text = el.textContent.trim();
+        var defaultTitles = ["Tip", "Note", "Warning", "Danger", "Info", "Success", "Failure", "Bug", "Abstract", "Question", "Example", "Quote", "Cite"];
+        if (defaultTitles.indexOf(text) !== -1) {
+          el.style.display = "none";
+        }
+      });
+      // 有自定义标题的提示框：翻译英文类型名为中文
+      var titleMap = {
+        "Tip": "提示",
+        "Note": "备注",
+        "Warning": "警告",
+        "Danger": "危险",
+        "Info": "信息",
+        "Success": "成功",
+        "Failure": "失败",
+        "Bug": "已知问题",
+        "Abstract": "摘要",
+        "Question": "问题",
+        "Example": "示例",
+        "Quote": "引用",
+        "Cite": "引用"
+      };
+      document.querySelectorAll(".md-typeset .admonition > .admonition-title").forEach(function(el) {
+        var text = el.textContent.trim();
+        // 如果标题是 "Tip: 结论" 这种格式，替换英文部分
+        Object.keys(titleMap).forEach(function(en) {
+          if (text === en + ":") {
+            el.textContent = titleMap[en] + ":";
+          }
+        });
+      });
+    });
+  </script>
+
+  </body>
+</html>
